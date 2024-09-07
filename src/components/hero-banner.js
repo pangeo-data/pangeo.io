@@ -20,6 +20,7 @@ export const HeroBanner = () => {
             >
               <Text
                 as={'span'}
+                color={'blue.800'}
                 position={'relative'}
                 _after={{
                   content: "''",

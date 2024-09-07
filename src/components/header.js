@@ -76,8 +76,8 @@ export const Header = () => {
             >
               <Image
                 w={32}
-                src={'/Xarray-assets/RGB/Xarray_Logo_RGB_Final.svg'}
-                alt={'xarray logo'}
+                src={'/Pangeo-assets/pangeo_logo.png'}
+                alt={'Pangeo logo'}
               />
             </Stack>
           </Flex>
