@@ -10,14 +10,14 @@ export const Layout = ({
   description,
   card,
   children,
-  url = 'https://xarray.dev',
+  url = 'https://pangeo.io',
   enableBanner = false,
 }) => {
-  const bannerTitle = 'Xarray’s 2024 User Survey is live now.'
+  const bannerTitle = 'Welcome to Pangeo’s new website!'
   const bannerDescription = ''
   const bannerChildren = (
-    <Link href='https://forms.gle/KEq7WviCdz9xTaJX6'>
-      Please take ~5 minutes to fill it out and help us improve Xarray.
+    <Link href='https://discourse.pangeo.io/c/meta/'>
+      Please give feedback by participating in the Discourse discussion.
     </Link>
   )
   return (
@@ -33,12 +33,12 @@ export const Layout = ({
         <meta name='twitter:description' content={description} />
         <meta name='twitter:image' content={card} />
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:site' content='@xarray_dev' />
+        <meta name='twitter:site' content='@pangeo_data' />
         <link
           rel='icon'
           type='image/png'
           sizes='96x96'
-          href='/Xarray-assets/Icon/Xarray_Icon_final.svg'
+          href='/Pangeo-assets/Icon/Pangeo-Icon.svg'
         />
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <link rel='icon' type='image/png' href='/favicon.png' />

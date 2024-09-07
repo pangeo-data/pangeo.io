@@ -12,9 +12,9 @@ import { Layout } from '@/components/layout'
 export default function IndexPage() {
   return (
     <Layout
-      title={'Xarray: N-D labeled arrays and datasets in Python'}
+      title={'Pangeo: A community for open, reproducible, scalable geoscience'}
       card={
-        'https://raw.githubusercontent.com/xarray-contrib/xarray.dev/main/public/Xarray-assets/Icon/Xarray_Icon_Final.png'
+        'https://raw.githubusercontent.com/pangeo-data/pangeo-tutorial/blob/agu2019/images/pangeo_simple_logo.png'
       }
       enableBanner
     >
