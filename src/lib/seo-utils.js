@@ -1,5 +1,5 @@
 export function getRootURL() {
-  let url = 'https://xarray.dev'
+  let url = 'https://pangeo.io'
   if (
     process.env.NEXT_PUBLIC_VERCEL_URL &&
     process.env.NEXT_PUBLIC_VERCEL_ENV !== 'production'
