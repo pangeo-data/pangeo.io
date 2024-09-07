@@ -1,7 +1,7 @@
 export const footerItems = {
   xarray: [
     { label: 'Dashboard', href: '/dashboard' },
-    { label: 'Team', href: '/team' },
+    { label: 'Steering Council', href: '/steering-council' },
     {
       label: 'Citing Xarray',
       href: 'https://docs.xarray.dev/en/stable/getting-started-guide/faq.html#how-should-i-cite-xarray',

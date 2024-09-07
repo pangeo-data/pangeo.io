@@ -5,7 +5,7 @@ import { Box, Circle, Flex, Skeleton, Stack, Text } from '@chakra-ui/react'
 import { BsBuilding } from 'react-icons/bs'
 import { IoIosGlobe, IoLogoGithub, IoLogoTwitter } from 'react-icons/io'
 
-export const TeamMember = ({ member }) => {
+export const SteeringCouncilMember = ({ member }) => {
   const { data, error, isLoading } = useGHUSER(
     `https://api.github.com/users/${member.github}`,
   )
