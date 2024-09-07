@@ -33,7 +33,7 @@ export const Donate = () => {
             position={'relative'}
           >
             <Text fontSize={'lg'}>
-              Xarray is a Sponsored Project of NumFOCUS, a{' '}
+              Pangeo is a Sponsored Project of NumFOCUS, a{' '}
               <Text
                 as={Link}
                 href={'https://en.wikipedia.org/wiki/501(c)(3)_organization'}
@@ -42,7 +42,7 @@ export const Donate = () => {
               >
                 501(c)(3) nonprofit charity
               </Text>{' '}
-              in the United States. NumFOCUS provides Xarray with fiscal, legal,
+              in the United States. NumFOCUS provides Pangeo with fiscal, legal,
               and administrative support to help ensure the health and
               sustainability of the project. Visit{' '}
               <Text
@@ -56,7 +56,7 @@ export const Donate = () => {
               for more information.
               <br />
               <br />
-              If you like Xarray and want to support our mission, please
+              If you like Pangeo and want to support our mission, please
               consider making a donation to support our efforts.
             </Text>
             <Button
@@ -66,7 +66,7 @@ export const Donate = () => {
               bg={'red.400'}
               _hover={{ bg: 'red.500' }}
               rightIcon={<BiDonateHeart />}
-              href={'https://numfocus.org/donate-to-xarray'}
+              href={'https://numfocus.org/donate-for-pangeo'}
             >
               Donate
             </Button>
