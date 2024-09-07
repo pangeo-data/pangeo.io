@@ -1,5 +1,6 @@
 import * as gtag from '@/lib/ga'
 import { customTheme } from '@/theme'
+
 import { ChakraProvider } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import Script from 'next/script'

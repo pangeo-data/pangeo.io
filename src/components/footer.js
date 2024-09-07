@@ -98,12 +98,6 @@ export const Footer = () => {
               >
                 <FaYoutube size={70} />
               </SocialButton>
-              <SocialButton
-                label={'Blog RSS Feed'}
-                href={`${getRootURL()}/atom.xml`}
-              >
-                <FaRss size={70} />
-              </SocialButton>
             </Stack>
           </Stack>
           <Stack align={'flex-start'}>
