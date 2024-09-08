@@ -1,11 +1,11 @@
 export const Features = [
   {
     title: 'Discourse forum',
-    text: 'The Pangeo Discourse Forum provides an online space for discussions about science, software, data, education, and more.',
+    text: 'The forum provides an online space for discussions about science, software, data, education, and more.',
   },
   {
     title: 'Educational resources',
-    text: 'Project Pythia is Pangeo’s education and training hub.',
+    text: 'Project Pythia is the education and training hub for Pangeo.',
   },
   {
     title: 'Working groups',
@@ -13,11 +13,11 @@ export const Features = [
   },
   {
     title: 'Recurring meetings',
-    text: 'Pangeo’s regular online community meetings includes discussions new progress and issues.',
+    text: 'Pangeo hosts regular online community meetings for discussions about progress and issues.',
   },
   {
     title: 'Showcase talks',
-    text: 'Pangeo organizes showcase talks on new advances in open software, data, and science during the academic semesters.',
+    text: 'Showcase talks during the fall and spring highlight new advances in open software, data, and science.',
   },
   {
     title: 'Community Events',
@@ -29,6 +29,6 @@ export const Features = [
   },
   {
     title: 'Infrastructure',
-    text: 'Pangeo has routinely hosted and developed infrastructure and cloud computing approaches for scientific research.',
+    text: 'Pangeo develops infrastructure and cloud computing approaches for scientific research.',
   },
 ]
