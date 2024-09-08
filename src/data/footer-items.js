@@ -38,7 +38,7 @@ export const footerItems = {
     },
     {
       label: 'Showcases',
-      href: 'https://discourse.pangeo.io/',
+      href: 'https://discourse.pangeo.io/c/meta/pangeo-showcase/19',
     },
     {
       label: 'Meetings',
