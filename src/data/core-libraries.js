@@ -22,4 +22,13 @@ export const Libraries = [
     repo: 'https://github.com/zarr-developers/zarr-python',
     logo: '/libraries/zarr-pink-stacked.svg',
   },
+  {
+    name: 'hvPlot',
+    description:
+      'A high-level plotting API for the PyData ecosystem built on HoloViews',
+    domains: ['📊 Visualization'],
+    repo: 'https://github.com/holoviz/hvplot',
+    homepage: 'https://hvplot.holoviz.org/',
+    logo: '/projects/hvplot-logo_horizontal.svg',
+  },
 ]

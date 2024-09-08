@@ -2,7 +2,7 @@ import { Box, Button, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 
 import { ProjectCard } from '@/components/project-card'
-import { Projects } from '@/data/projects'
+import { Projects } from '@/data/geoscience-libraries'
 
 export const GeoscientificLibraries = () => {
   const projects = React.useMemo(() => Projects, [])
