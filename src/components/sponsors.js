@@ -16,7 +16,7 @@ export const Sponsors = () => {
         </Heading>
         <Text fontSize={'lg'}>
           We thank these institutions for generously supporting the development
-          and maintenance of Xarray.
+          and maintenance of Pangeo.
         </Text>
 
         <SimpleGrid
