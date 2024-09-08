@@ -15,7 +15,15 @@ const fonts = {
 
 export const customTheme = extendTheme(
   {
-    colors: { ...theme.colors, brand: theme.colors.blue },
+    colors: {
+      blue: {
+        500: '#1D3D64',
+        300: '#2B646C',
+      },
+      green: {
+        500: '#439666',
+      },
+    },
     config: config,
     fonts: fonts,
     styles: {

@@ -19,7 +19,7 @@ export const Banner = ({ title, description, children }) => {
     <Box pt={16} px={20}>
       <Alert
         status='info'
-        variant='solid'
+        variant='subtle'
         flexDirection='row'
         alignItems='center'
         justifyContent='center'
