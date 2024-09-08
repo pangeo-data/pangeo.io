@@ -3,7 +3,7 @@ import React from 'react'
 import { IoIosGlobe, IoLogoGithub } from 'react-icons/io'
 
 import { Image } from '@/components/mdx'
-import { Libraries as data } from '@/data/array-libraries'
+import { Libraries as data } from '@/data/core-libraries'
 
 import { SocialLink } from '@/components/social-link'
 
@@ -40,13 +40,14 @@ const Library = ({ name, description, repo, url, logo }) => {
   )
 }
 
-export const ArrayLibraries = () => {
+export const CoreLibraries = () => {
   const libraries = React.useMemo(() => data, [])
   return (
     <Box my={8}>
       <Text fontSize={'lg'}>
-        Xarray supports multiple array backends, allowing users to choose array
-        types that work best for their application.
+        Pangeo contributes to developing essential software for open,
+        reproducible, scalable geoscience. Many of these libraries are also
+        broadly applicable across many domains.
       </Text>
 
       <SimpleGrid

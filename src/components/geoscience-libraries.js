@@ -1,18 +1,17 @@
 import { Box, Button, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 
-import { Link } from '@/components/mdx'
 import { ProjectCard } from '@/components/project-card'
 import { Projects } from '@/data/projects'
 
-export const ScientificDomains = () => {
+export const GeoscientificLibraries = () => {
   const projects = React.useMemo(() => Projects, [])
 
   return (
     <Box my={8}>
       <Text fontSize={'lg'}>
-        This section lists some of the standalone packages, projects developed
-        with xarray.
+        Pangeo supports the development of geoscientific libraries and
+        platforms.
       </Text>
 
       <SimpleGrid
@@ -35,16 +34,6 @@ export const ScientificDomains = () => {
             ></ProjectCard>
           ))}
       </SimpleGrid>
-
-      <Button
-        as={Link}
-        useExternalIcon
-        href='https://docs.xarray.dev/en/stable/ecosystem.html'
-        variant={'outline'}
-        colorScheme={'blue'}
-      >
-        See More
-      </Button>
     </Box>
   )
 }
