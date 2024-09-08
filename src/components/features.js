@@ -19,13 +19,11 @@ export const Features = () => {
     <Box id={'features'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>
-          Key Features & Capabilities
+          Community Components
         </Heading>
         <Text fontSize={'lg'}>
-          Xarray provides data models for working with labeled arrays and
-          datasets. Its toolkit includes a broad set of domain-agnostic
-          functions for advanced analytics and visualization with these data
-          structures.
+          Pangeo provides the community with space and resources for addressing
+          barriers to advancing open, reproducible, and scalable geoscience.
         </Text>
 
         <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={8} my={8}>

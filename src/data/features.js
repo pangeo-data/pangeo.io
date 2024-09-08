@@ -1,34 +1,34 @@
 export const Features = [
   {
-    title: 'Interoperability',
-    text: 'Interoperable with the scientific Python ecosystem including NumPy, Dask, Pandas, and Matplotlib.',
+    title: 'Discourse forum',
+    text: 'The Pangeo Discourse Forum provides an online space for discussions about science, software, data, education, and more.',
   },
   {
-    title: 'Apply operations over named dimensions',
-    text: '',
+    title: 'Educational resources',
+    text: 'Project Pythia is Pangeo’s education and training hub.',
   },
   {
-    title: 'Select values by label instead of integer location',
-    text: '',
+    title: 'Working groups',
+    text: 'Pangeo organizes working groups focused on education, distributed array computing, machine learning, and more.',
   },
   {
-    title: 'Vectorized operations',
-    text: 'Mathematical operations vectorize across multiple dimensions (array broadcasting) based on dimension names, not shape.',
+    title: 'Recurring meetings',
+    text: 'Pangeo’s regular online community meetings includes discussions new progress and issues.',
   },
   {
-    title: 'GroupBy operations',
-    text: ' Flexible split-apply-combine operations with groupby.',
+    title: 'Showcase talks',
+    text: 'Pangeo organizes showcase talks on new advances in open software, data, and science during the academic semesters.',
   },
   {
-    title: 'Database like operations',
-    text: 'Database like alignment based on coordinate labels that smoothly handles missing values.',
+    title: 'Community Events',
+    text: 'Pangeo hosts community events in association with major conferences.',
   },
   {
-    title: 'Arbitrary metadata tracking',
-    text: 'Keep track of arbitrary metadata in the form of a Python dictionary.',
+    title: 'Software',
+    text: 'Pangeo drives the development and evolution of software tools that facilitate geoscience research.',
   },
   {
-    title: 'Flexible and Extensible I/O backend API',
-    text: 'Read and write data to and from NetCDF, HDF, Zarr, OpenDAP, and GRIB.',
+    title: 'Infrastructure',
+    text: 'Pangeo has routinely hosted and developed infrastructure and cloud computing approaches for scientific research.',
   },
 ]
