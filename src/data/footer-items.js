@@ -33,6 +33,10 @@ export const footerItems = {
       href: 'https://discourse.pangeo.io/',
     },
     {
+      label: 'Discord',
+      href: 'https://discord.gg/ex5qqEyyTz',
+    },
+    {
       label: 'Showcases',
       href: 'https://discourse.pangeo.io/',
     },
