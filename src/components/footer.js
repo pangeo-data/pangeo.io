@@ -66,8 +66,8 @@ export const Footer = () => {
             <Box>
               <Image
                 w={32}
-                src={'/Xarray-assets/RGB/Xarray_Logo_RGB_Final.svg'}
-                alt={'xarray logo'}
+                src={'/Pangeo-assets/Icon/Pangeo-Icon.svg'}
+                alt={'Pangeo logo'}
               />
             </Box>
 
@@ -80,20 +80,20 @@ export const Footer = () => {
             <Stack direction={'row'} spacing={2}>
               <SocialButton
                 label={'Twitter'}
-                href={'https://twitter.com/xarray_dev'}
+                href={'https://twitter.com/pangeo_data'}
               >
                 <FaTwitter size={70} />
               </SocialButton>
               <SocialButton
                 label={'GitHub'}
-                href={'https://github.com/pydata/xarray'}
+                href={'https://github.com/pangeo_data/pangeo'}
               >
                 <FaGithub size={70} />
               </SocialButton>
               <SocialButton
                 label={'YouTube'}
                 href={
-                  'https://www.youtube.com/channel/UCBlxVSA6xQXeb-i4GgTlO7g'
+                  'https://www.youtube.com/channel/UC79LfJH9rbmKEEZguNvYdfQ'
                 }
               >
                 <FaYoutube size={70} />
@@ -101,9 +101,8 @@ export const Footer = () => {
             </Stack>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Xarray</ListHeader>
-
-            {footerItems.xarray.map((item) => {
+            <ListHeader>Community</ListHeader>
+            {footerItems.community.map((item) => {
               return (
                 <Link
                   key={item.label}
@@ -132,8 +131,9 @@ export const Footer = () => {
             })}
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Community</ListHeader>
-            {footerItems.community.map((item) => {
+            <ListHeader>Governance</ListHeader>
+
+            {footerItems.governance.map((item) => {
               return (
                 <Link
                   key={item.label}

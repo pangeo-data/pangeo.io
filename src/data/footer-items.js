@@ -1,51 +1,48 @@
 export const footerItems = {
-  xarray: [
-    { label: 'Dashboard', href: '/dashboard' },
+  governance: [
     { label: 'Steering Council', href: '/steering-council' },
     {
-      label: 'Citing Xarray',
-      href: 'https://docs.xarray.dev/en/stable/getting-started-guide/faq.html#how-should-i-cite-xarray',
-    },
-    {
-      label: 'Roadmap',
-      href: 'https://docs.xarray.dev/en/stable/roadmap.html',
-    },
-    {
-      label: 'Brand Assets',
-      href: 'https://github.com/xarray-contrib/xarray.dev/tree/main/public/Xarray-assets',
+      label: 'Governance Documents',
+      href: 'https://github.com/pangeo-data/governance',
     },
   ],
 
   resources: [
-    { label: 'Documentation', href: 'https://docs.xarray.dev/en/stable/' },
     {
-      label: 'Tutorials',
-      href: 'https://docs.xarray.dev/en/stable/tutorials-and-videos.html',
+      label: 'Recorded Talks',
+      href: 'https://www.youtube.com/watch?v=gorK0sIP9g4&list=PLuQQBBQFfpgq0OvjKbjcYgTDzDxTqtwua',
+    },
+    { label: 'Medium Blog', href: 'https://medium.com/pangeo' },
+    {
+      label: 'Pythia Foundations',
+      href: 'https://foundations.projectpythia.org/landing-page.html',
     },
     {
-      label: 'Example Gallery',
-      href: 'https://docs.xarray.dev/en/stable/gallery.html',
+      label: 'Pythia Cookbooks',
+      href: 'https://cookbooks.projectpythia.org/',
     },
-    { label: 'Compatible Projects', href: 'https://github.com/xarray-contrib' },
+    {
+      label: 'Brand Assets',
+      href: 'https://github.com/pangeo-data/pangeo.io/tree/main/public/Pangeo-assets',
+    },
   ],
 
   community: [
     {
-      label: 'Contribute',
-      href: 'https://docs.xarray.dev/en/stable/contributing.html',
+      label: 'Discourse',
+      href: 'https://discourse.pangeo.io/',
     },
     {
-      label: 'GitHub Discussions',
-      href: 'https://github.com/pydata/xarray/discussions',
-    },
-    { label: 'Issue Tracker', href: 'https://github.com/pydata/xarray/issues' },
-    {
-      label: 'Stack Overflow',
-      href: 'https://stackoverflow.com/questions/tagged/python-xarray',
+      label: 'Showcases',
+      href: 'https://discourse.pangeo.io/',
     },
     {
-      label: 'Mailing List',
-      href: 'https://groups.google.com/forum/#!forum/xarray',
+      label: 'Meetings',
+      href: 'https://discourse.pangeo.io/',
+    },
+    {
+      label: 'Events',
+      href: 'https://discourse.pangeo.io/',
     },
   ],
 }
