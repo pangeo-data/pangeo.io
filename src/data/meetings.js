@@ -35,7 +35,7 @@ export const WorkingGroups = [
     name: 'Machine Learning Working Group',
     description:
       'Open working group to advance geoscientific machine learning software libraries and pipelines.',
-    schedule: 'Every Wednesday, alternating between 12pm ET and 4pm ET',
+    schedule: 'First Tuesday of the month at 3p ET',
     conferencing:
       'https://us02web.zoom.us/j/86595617140?pwd=aEZJeEtPZ2dmcjRmVkhnVUVWOEZOZz09',
     notes:
