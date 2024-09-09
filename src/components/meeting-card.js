@@ -33,7 +33,7 @@ export const MeetingCard = ({
       }}
     >
       <LinkOverlay
-        href={name || notes}
+        href={notes || name}
         as={Link}
         _hover={{
           textDecoration: 'none',

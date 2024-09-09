@@ -5,7 +5,11 @@ import { Layout } from '@/components/layout'
 import { Heading, aImage, Link } from '@/components/mdx'
 
 import { MeetingCard } from '@/components/meeting-card'
-import { CommunityMeetings, WorkingGroups } from '@/data/meetings'
+import {
+  CommunityMeetings,
+  WorkingGroups,
+  PastWorkingGroups,
+} from '@/data/meetings'
 
 export default function Showcase({}) {
   return (
@@ -42,7 +46,7 @@ export default function Showcase({}) {
             ))}
           </SimpleGrid>
           <Heading as='h1' size='2xl'>
-            Working Groups
+            Active Working Groups
           </Heading>
 
           <SimpleGrid
@@ -52,6 +56,27 @@ export default function Showcase({}) {
             justifyContent={'space-between'}
           >
             {WorkingGroups.map((project, index) => (
+              <MeetingCard
+                key={index}
+                name={project.name}
+                description={project.description}
+                schedule={project.schedule}
+                conferencing={project.conferencing}
+                notes={project.notes}
+              ></MeetingCard>
+            ))}
+          </SimpleGrid>
+          <Heading as='h1' size='2xl'>
+            Past Working Groups
+          </Heading>
+
+          <SimpleGrid
+            my={8}
+            columns={{ base: 1, md: 2, lg: 2 }}
+            spacing={8}
+            justifyContent={'space-between'}
+          >
+            {PastWorkingGroups.map((project, index) => (
               <MeetingCard
                 key={index}
                 name={project.name}
