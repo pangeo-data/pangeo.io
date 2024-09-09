@@ -53,7 +53,7 @@ export const MeetingCard = ({
             </Text>
             <Stack direction={'row'} align='center' spacing={2}>
               <SocialLink
-                href={conferencing}
+                href={notes}
                 icon={SiGoogledocs}
                 label={`View ${name}'s notes`}
               />

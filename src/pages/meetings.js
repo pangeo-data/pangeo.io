@@ -5,7 +5,7 @@ import { Layout } from '@/components/layout'
 import { Heading, aImage, Link } from '@/components/mdx'
 
 import { MeetingCard } from '@/components/meeting-card'
-import { RecurringMeetings } from '@/data/meetings'
+import { CommunityMeetings, WorkingGroups } from '@/data/meetings'
 
 export default function Showcase({}) {
   return (
@@ -17,11 +17,11 @@ export default function Showcase({}) {
       <Box my={8}>
         <Container maxW='container.lg' py={20}>
           <Heading as='h1' size='2xl'>
-            Recurring meetings and working groups
+            Community meetings
           </Heading>
           <Text fontSize={'lg'}>
-            The Pangeo community gathers regularly through community meetings
-            and topical working groups.
+            Pangeo gathers regularly through community meetings and working
+            groups.
           </Text>
 
           <SimpleGrid
@@ -30,7 +30,28 @@ export default function Showcase({}) {
             spacing={8}
             justifyContent={'space-between'}
           >
-            {RecurringMeetings.map((project, index) => (
+            {CommunityMeetings.map((project, index) => (
+              <MeetingCard
+                key={index}
+                name={project.name}
+                description={project.description}
+                schedule={project.schedule}
+                conferencing={project.conferencing}
+                notes={project.notes}
+              ></MeetingCard>
+            ))}
+          </SimpleGrid>
+          <Heading as='h1' size='2xl'>
+            Working Groups
+          </Heading>
+
+          <SimpleGrid
+            my={8}
+            columns={{ base: 1, md: 2, lg: 2 }}
+            spacing={8}
+            justifyContent={'space-between'}
+          >
+            {WorkingGroups.map((project, index) => (
               <MeetingCard
                 key={index}
                 name={project.name}
