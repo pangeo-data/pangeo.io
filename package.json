@@ -46,9 +46,9 @@
   },
   "devDependencies": {
     "@types/react": "^18.3.5",
-    "eslint": "^9.9.1",
-    "eslint-config-next": "14.2.7",
-    "playwright": "^1.46.1",
+    "eslint": "^9.10.0",
+    "eslint-config-next": "14.2.8",
+    "playwright": "^1.47.0",
     "typescript": ">=5.5.4",
     "webpack": "^5.94.0"
   }
