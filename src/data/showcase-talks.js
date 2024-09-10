@@ -186,106 +186,296 @@ export const PastShowcaseTalks = [
       },
     ],
   },
+  {
+    title:
+      'Delivering OGC Processing API, OGC EDR, and OPeNDAP services with pygeoapi and Catalog-to-Xpublish',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-delivering-ogc-processing-api-ogc-edr-and-opendap-services-with-pygeoapi-and-catalog-to-xpublish/3905',
+    date: '2023-12-13',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Anthony Aufdenkampe',
+        github: '',
+      },
+      {
+        name: 'Sarah Jordan',
+        github: '',
+      },
+      {
+        name: 'Xavier Nogueira',
+        github: '',
+      },
+      {
+        name: 'Paul Tomasula',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Interactive Exploration of EMIT Mission data',
+    url: 'https://discourse.pangeo.io/t/interactive-exploration-of-emit-mission-data/3692',
+    date: '2023-09-20',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Erik A Bolch',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Intake 2.0: The Future',
+    url: 'https://discourse.pangeo.io/t/sep-27-2023-intake-2-the-future-martin-durant/3706',
+    date: '2023-09-27',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Martin Durant',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Arraylake: A Cloud-Native Data Lake Platform for Earth System Science',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-arraylake-a-cloud-native-data-lake-platform-for-earth-system-science/3701',
+    date: '2023-10-04',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Ryan Abernathy',
+        github: '',
+      },
+      {
+        name: 'Joe Hamman',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Improving Access to NOAA National Ocean Service Model Data with Kerchunk and XPublish',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-improving-access-to-noaa-national-ocean-service-model-data-with-kerchunk-and-xpublish/3725',
+    date: '2023-10-11',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Matt Iannucci',
+        github: '',
+      },
+      {
+        name: 'Jonathan Joyce',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'The Hydro-Terrestrial Earth System Testbed (HyTEST)',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-the-hydro-terrestrial-earth-system-testbed-hytest/3780',
+    date: '2023-10-25',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Amelia Snyder',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Compression of Geospatial Data with Varying Information Density',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-compression-of-geospatial-data-with-varying-information-density/3797',
+    date: '2023-11-01',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Ayoub Fatihi',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Accelerating Science with Open Source – An Introduction to Open-Source Science (OSSci)',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-accelerating-science-with-open-source-an-introduction-to-open-source-science-ossci/3822',
+    date: '2023-11-08',
+    time: '4PM EST',
+    authors: [
+      {
+        name: 'Tim Bonnemann',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Cubed: Bounded-memory serverless array processing in xarray',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-cubed-bounded-memory-serverless-array-processing-in-xarray/3836',
+    date: '2023-11-15',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Tom Nicholas',
+        github: '',
+      },
+      {
+        name: 'Tom White',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'How to transform thousands of CMIP6 datasets to Zarr with Pangeo Forge (and why we should never do this again!)',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-how-to-transform-thousands-of-cmip6-datasets-to-zarr-with-pangeo-forge-and-why-we-should-never-do-this-again/3856',
+    date: '2023-11-29',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Julius Busecke',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'What’s next for Pangeo?',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-whats-next-for-pangeo/3870',
+    date: '2023-12-06',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Tom Nicholas',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'The Geospatial Discovery Network: Accelerating geospatial science in the multicloud future',
+    url: 'https://discourse.pangeo.io/t/wednesday-may-17th-searching-beyond-pixels-and-tiles/3558',
+    date: '2023-05-17',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Campbell Watson',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Open-source and reproducibility workflow within the Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA)',
+    url: 'https://discourse.pangeo.io/t/open-source-and-reproducibility-workflow-within-the-consortium-for-ocean-sea-ice-modelling-in-australia-cosima/3405',
+    date: '2023-05-10',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Navid Constantinou',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Creating Interactive Plots to Display Weather Data Using the Holoviz/Geoviews Libraries in Python',
+    url: 'https://discourse.pangeo.io/t/wednesday-april-26th-creating-interactive-plots-to-display-weather-data-using-the-holoviz-geoviews-libraries/3556',
+    date: '2023-04-26',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Michael Barletta',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Climatematch Academy: using Pangeo tools to educate the world on climate',
+    url: 'https://discourse.pangeo.io/t/wednesday-april-12th-climatematch-academy-from-data-to-action/3298',
+    date: '2023-04-12',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Abigail Bodner',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Environmental Data Science Book: a computational notebook community showcasing open and reproducible environmental science',
+    url: 'https://discourse.pangeo.io/t/wednesday-april-5th-environmental-data-science-book-a-computational-notebook-community-showcasing-open-and-reproducible-environmental-science/3319',
+    date: '2023-04-05',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Alejandro Coca-Castro',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'SOSA: The Scalable Open-Source Analysis Stack',
+    url: 'https://discourse.pangeo.io/t/wednesday-march-22nd-sosa-the-scalable-open-source-analysis-stack/3252',
+    date: '2023-03-22',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'James A. Bednar',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Data inclusivity and user needs for the global south',
+    url: 'https://discourse.pangeo.io/t/wednesday-march-8th-2023-data-inclusivity-and-user-needs-for-the-global-south/3222',
+    date: '2023-03-08',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Isa Elegbede',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'CryoCloud: Accelerating discovery for NASA Cryosphere communities with open cloud infrastructure',
+    url: 'https://discourse.pangeo.io/t/wednesday-march-1st-cryocloud-accelerating-discovery-for-nasa-cryosphere-communities-with-open-cloud-infrastructure/3392',
+    date: '2023-03-01',
+    time: '4PM EST',
+    authors: [
+      {
+        name: 'Tasha Snow',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'D’explorer Explore cloud datasets from your notebooks (Replacement to S3 Explorer from IBM)',
+    url: 'https://discourse.pangeo.io/t/wednesday-february-22nd-2023-d-explorer-explore-cloud-datasets-from-your-notebooks/3210',
+    date: '2023-02-22',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Ramon Ramirez-Linan',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Lessons learned teaching Pangeo in the classroom',
+    url: 'https://discourse.pangeo.io/t/wednesday-february-15th-lessons-learned-teaching-pangeo-in-the-classroom/3208',
+    date: '2023-02-15',
+    time: '4PM EST',
+    authors: [
+      {
+        name: 'Tim Crone',
+        github: '',
+      },
+    ],
+  },
 ]
 
-// Fall 2023 Showcase
-// ------------------------------------------------------
-
-// .. list-table::
-// :widths: 15 25 60
-// :header-rows: 1
-// :align: left
-
-// * - Date
-//   - Speaker
-//   - Title
-
-// * - 2023-09-20 12PM EDT
-//   - Erik A Bolch, KBR (Contractor to USGS)
-//   - `Interactive Exploration of EMIT Mission data <https://discourse.pangeo.io/t/interactive-exploration-of-emit-mission-data/3692>`_
-// * - 2023-09-27 4PM EDT
-//   - Martin Durant, Anaconda
-//   - `Intake 2.0: The Future <https://discourse.pangeo.io/t/sep-27-2023-intake-2-the-future-martin-durant/3706>`_
-// * - 2023-10-04 12PM EDT
-//   - Ryan Abernathy and Joe Hamman, EarthMover
-//   - `Arraylake: A Cloud-Native Data Lake Platform for Earth System Science <https://discourse.pangeo.io/t/pangeo-showcase-arraylake-a-cloud-native-data-lake-platform-for-earth-system-science/3701>`_
-// * - 2023-10-11 4PM EDT
-//   - Matt Iannucci and Jonathan Joyce, RPS
-//   - `Improving Access to NOAA National Ocean Service Model Data with Kerchunk and XPublish <https://discourse.pangeo.io/t/pangeo-showcase-improving-access-to-noaa-national-ocean-service-model-data-with-kerchunk-and-xpublish/3725>`_
-// * - 2023-10-18 12PM EDT
-//   - No Showcase Talk
-//   - No Showcase Talk
-// * - 2023-10-25 4PM EDT
-//   - Amelia Snyder, USGS
-//   - `The Hydro-Terrestrial Earth System Testbed (HyTEST) <https://discourse.pangeo.io/t/pangeo-showcase-the-hydro-terrestrial-earth-system-testbed-hytest/3780>`_
-// * - 2023-11-01 12PM EDT
-//   - Ayoub Fatihi, ECMWF
-//   - `Compression of Geospatial Data with Varying Information Density <https://discourse.pangeo.io/t/pangeo-showcase-compression-of-geospatial-data-with-varying-information-density/3797>`_
-// * - 2023-11-08 4PM EST
-//   - Tim Bonnemann, Open Source Science
-//   - `Accelerating Science with Open Source – An Introduction to Open-Source Science (OSSci) <https://discourse.pangeo.io/t/pangeo-showcase-accelerating-science-with-open-source-an-introduction-to-open-source-science-ossci/3822>`_
-// * - 2023-11-15 12PM EST
-//   - Tom Nicholas, [C]Worthy, and Tom White, tom-e-white.com
-//   - `Cubed: Bounded-memory serverless array processing in xarray <https://discourse.pangeo.io/t/pangeo-showcase-cubed-bounded-memory-serverless-array-processing-in-xarray/3836>`_
-// * - 2023-11-22 4PM EST
-//   - Thanksgiving Break
-//   - Thanksgiving Break
-// * - 2023-11-29 12PM EST
-//   - Julius Busecke, Columbia University
-//   - `How to transform thousands of CMIP6 datasets to Zarr with Pangeo Forge (and why we should never do this again!) <https://discourse.pangeo.io/t/pangeo-showcase-how-to-transform-thousands-of-cmip6-datasets-to-zarr-with-pangeo-forge-and-why-we-should-never-do-this-again/3856>`_
-// * - 2023-12-06 4PM EST
-//   - Tom Nicholas & the Pangeo Community
-//   - `What's next for Pangeo? <https://discourse.pangeo.io/t/pangeo-showcase-whats-next-for-pangeo/3870>`_
-// * - 2023-12-13 12PM EST
-//   - Anthony Aufdenkampe, Sarah Jordan, Xavier Nogueira and Paul Tomasula (LimnoTech)
-//   - `Delivering OGC Processing API, OGC EDR, and OPeNDAP services with pygeoapi and Catalog-to-Xpublish <https://discourse.pangeo.io/t/pangeo-showcase-delivering-ogc-processing-api-ogc-edr-and-opendap-services-with-pygeoapi-and-catalog-to-xpublish/3905>`_
-// * - 2023-12-20 4PM EST
-//   - Pangeo Showcase Winter Break begins
-//   - Pangeo weekly meeting will still take place!
-
-// **If you are interested in presenting, please `fill out this short form <https://forms.gle/QwxKusVvrvDakSNs8>`_.
-
-// Showcase Archive
-// -----------------------------------
-
-// .. list-table::
-// :widths: 15 25 60
-// :header-rows: 1
-// :align: left
-
-// * - Date
-//   - Speaker
-//   - Title
-// * - 2023-05-17 12PM EDT
-//   - Campbell Watson, IBM
-//   - `The Geospatial Discovery Network: Accelerating geospatial science in the multicloud future <https://discourse.pangeo.io/t/wednesday-may-17th-searching-beyond-pixels-and-tiles/3558>`_ |Campbell DOI Badge|
-// * - 2023-05-10 4PM EDT
-//   - Navid Constantinou, Australian National University
-//   - `Open-source and reproducibility workflow within the Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA) <Wednesday May 10th: Open-source and reproducibility workflow within the Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA)>`_ |Constantinou DOI Badge|
-// * - 2023-04-26 4PM EDT
-//   - Michael Barletta, University at Albany
-//   - `Creating Interactive Plots to Display Weather Data Using the Holoviz/Geoviews Libraries in Python <https://discourse.pangeo.io/t/wednesday-april-26th-creating-interactive-plots-to-display-weather-data-using-the-holoviz-geoviews-libraries/3556>`_ |Barletta DOI Badge|
-// * - 2023-04-12 4PM EDT
-//   - Abigail Bodner, NYU/ClimateMatch Academy
-//   - `Climatematch Academy: using Pangeo tools to educate the world on climate <https://discourse.pangeo.io/t/wednesday-april-12th-climatematch-academy-from-data-to-action/3298>`_
-// * - 2023-04-05 12PM EST
-//   - Alejandro Coca-Castro, The Alan Turing Institute
-//   - `Environmental Data Science Book: a computational notebook community showcasing open and reproducible environmental science <https://discourse.pangeo.io/t/wednesday-april-5th-environmental-data-science-book-a-computational-notebook-community-showcasing-open-and-reproducible-environmental-science/3319>`_  |Coca_Castro DOI Badge|
-// * - 2023-03-22 12PM EDT
-//   - James A. Bednar, Anaconda Inc.
-//   - `SOSA: The Scalable Open-Source Analysis Stack <https://discourse.pangeo.io/t/wednesday-march-22nd-sosa-the-scalable-open-source-analysis-stack/3252>`_  |Bednar.B DOI Badge|
-// * - 2023-03-08 12PM EST
-//   - Isa Elegbede, Lagos State University
-//   - `Data inclusivity and user needs for the global south <https://discourse.pangeo.io/t/wednesday-march-8th-2023-data-inclusivity-and-user-needs-for-the-global-south/3222>`_  |Elegbede DOI Badge|
-// * - 2023-03-01 4PM EST
-//   - Tasha Snow, Colorado School of Mines
-//   - `CryoCloud: Accelerating discovery for NASA Cryosphere communities with open cloud infrastructure <https://discourse.pangeo.io/t/wednesday-march-1st-cryocloud-accelerating-discovery-for-nasa-cryosphere-communities-with-open-cloud-infrastructure/3392>`_  |Snow DOI Badge|
-// * - 2023-02-22 12PM EST
-//   - Ramon Ramirez-Linan, Navteca
-//   - `D'explorer Explore cloud datasets from your notebooks (Replacement to S3 Explorer from IBM) <https://discourse.pangeo.io/t/wednesday-february-22nd-2023-d-explorer-explore-cloud-datasets-from-your-notebooks/3210>`_ |Ramirez DOI Badge|
-// * - 2023-02-15 4PM EST
-//   - Tim Crone, Columbia University
-//   - `Lessons learned teaching Pangeo in the classroom <https://discourse.pangeo.io/t/wednesday-february-15th-lessons-learned-teaching-pangeo-in-the-classroom/3208>`_ |Crone DOI Badge|
 // * - 2023-02-08 12PM EST
 //   - Alex Kerney, Gulf of Maine Research Institute
 //   - `Mental Health for Geoscientists <https://discourse.pangeo.io/t/wednesday-february-8th-mental-health-in-the-geosciences/3211>`_ |Kerney DOI Badge|

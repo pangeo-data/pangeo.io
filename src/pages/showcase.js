@@ -87,9 +87,19 @@ export default function Showcase({}) {
             Upcoming presentations about software tools, datasets, and
             scientific workflows.
           </Text>
-
-          <Divider my={4} borderColor='gray.200' />
-
+          <Container centerContent>
+            <Link
+              style={{
+                textDecoration: 'underline',
+              }}
+              href='https://forms.gle/QwxKusVvrvDakSNs8'
+            >
+              {' '}
+              If you are interested in presenting, please fill out this short
+              form.
+            </Link>
+            <Divider my={4} borderColor='gray.200' />
+          </Container>
           <VStack
             divider={<StackDivider borderColor='gray.200' />}
             spacing={-4}
@@ -115,7 +125,9 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {PastShowcaseTalks.map((page) => {
+            {PastShowcaseTalks.sort(
+              (a, b) => Date.parse(b.date) - Date.parse(a.date),
+            ).map((page) => {
               return <SinglePresentation key={page.id} page={page} />
             })}
           </VStack>
