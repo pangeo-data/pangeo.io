@@ -64,7 +64,7 @@ export const WorkingGroups = [
       'Open working group to advance geoscientific machine learning software libraries and pipelines.',
     schedule: 'First Tuesday of the month at 3p ET',
     conferencing:
-      'https://us02web.zoom.us/j/86595617140?pwd=aEZJeEtPZ2dmcjRmVkhnVUVWOEZOZz09',
+      'https://carbonplan-org.zoom.us/j/83350079472?pwd=tPkPSoJ6YBZFQDaW69RPRrwWVrKfut.1',
     notes:
       'https://paper.dropbox.com/doc/Meeting-notes-Machine-Learning-WG--AmU~wZXwdbpTZi8rQsJQH9_sAg-9UUgyywF9jmIMXXbmZTyJ',
   },
