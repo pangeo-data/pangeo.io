@@ -86,7 +86,7 @@ export const Footer = () => {
               </SocialButton>
               <SocialButton
                 label={'GitHub'}
-                href={'https://github.com/pangeo_data/pangeo'}
+                href={'https://github.com/pangeo-data/pangeo.io'}
               >
                 <FaGithub size={70} />
               </SocialButton>
