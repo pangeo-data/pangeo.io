@@ -1,5 +1,17 @@
 export const FutureShowcaseTalks = [
   {
+    title: 'Project Pythia',
+    url: '',
+    date: '2024-10-02',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Brian Rose',
+        github: 'brian-rose',
+      },
+    ],
+  },
+  {
     title: 'marimo: a reactive notebook for Python that lets you make apps',
     url: '',
     date: '2024-10-09',
@@ -8,6 +20,43 @@ export const FutureShowcaseTalks = [
       {
         name: 'Akshay Agrawal',
         github: 'akshayka',
+      },
+    ],
+  },
+  {
+    title:
+      'HYCOM-OceanTrack: Integrated HYCOM Eulerian Fields and Lagrangian Trajectories Dataset',
+    url: '',
+    date: '2024-10-16',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Shane Elipot',
+        github: 'selipot',
+      },
+    ],
+  },
+  {
+    title: 'Progress with Xpublish-based APIs',
+    url: '',
+    date: '2024-10-23',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Alex Kerney',
+        github: 'abkfenris',
+      },
+    ],
+  },
+  {
+    title: 'Awesome Panel',
+    url: '',
+    date: '2024-10-30',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Marc Skov Madsen',
+        github: 'MarcSkovMadsen',
       },
     ],
   },
@@ -27,11 +76,23 @@ export const FutureShowcaseTalks = [
     title: 'flox: GroupBy, now with smarts!',
     url: '',
     date: '2024-11-13',
-    time: '1PM EST',
+    time: '12PM EST',
     authors: [
       {
         name: 'Deepak Cherian',
         github: 'dcherian',
+      },
+    ],
+  },
+  {
+    title: 'Arkouda as an XArray backend for HPC',
+    url: '',
+    date: '2024-11-20',
+    time: '4PM EST',
+    authors: [
+      {
+        name: 'Jeremiah Corrado',
+        github: 'jeremiah-corrado',
       },
     ],
   },
