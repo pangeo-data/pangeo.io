@@ -1,6 +1,7 @@
 export const FutureShowcaseTalks = [
   {
-    title: 'Project Pythia',
+    title:
+      'Project Pythia Cookbooks: challenges and progress in breaking down barriers to Open Science',
     url: '',
     date: '2024-10-02',
     time: '12PM EDT',
@@ -8,6 +9,50 @@ export const FutureShowcaseTalks = [
       {
         name: 'Brian Rose',
         github: 'brian-rose',
+      },
+      {
+        name: 'John Clyne',
+        github: 'clyne',
+      },
+      {
+        name: 'Ryan May',
+        github: 'dopplershift',
+      },
+      {
+        name: 'James Munroe',
+        github: 'jmunroe',
+      },
+      {
+        name: 'Orhan Eroglu',
+        github: 'erogluorhan',
+      },
+      {
+        name: 'Kevin Tyle',
+        github: 'ktyle',
+      },
+      {
+        name: 'Drew Camron',
+        github: 'dcamron',
+      },
+      {
+        name: 'Julia Kent',
+        github: 'jukent',
+      },
+      {
+        name: 'Robert Ford',
+        github: 'r-ford',
+      },
+      {
+        name: 'Max Grover',
+        github: 'mgrover1',
+      },
+      {
+        name: 'Curtis Walker',
+        github: '',
+      },
+      {
+        name: 'Joseph Gum',
+        github: '',
       },
     ],
   },
