@@ -105,7 +105,9 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {FutureShowcaseTalks.map((page) => {
+            {FutureShowcaseTalks.sort(
+              (a, b) => Date.parse(a.date) - Date.parse(b.date),
+            ).map((page) => {
               return <SinglePresentation key={page.id} page={page} />
             })}
           </VStack>
