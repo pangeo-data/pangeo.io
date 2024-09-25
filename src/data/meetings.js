@@ -32,7 +32,7 @@ export const CommunityMeetings = [
     name: 'Project Pythia Community Meeting',
     description:
       'A monthly meeting for updates, successes, and community participation across Pythia, the education component of Pangeo.',
-    schedule: 'Monthly on the third Tuesday at 1 PM ET',
+    schedule: 'Monthly on the third Tuesday at 12 PM ET',
     conferencing: 'https://ucar-edu.zoom.us/j/91247751334',
     notes:
       'https://docs.google.com/document/d/e/2PACX-1vQWQrgHs_G5XyNH5GTFYydH_woUZcyZibdxPUWLpqFUYs20WM93kdx5onwOaizC_3-tfnbreMNQbYAp/pub',
