@@ -1,5 +1,17 @@
 export const FutureShowcaseTalks = [
   {
+    title: 'Geospatial reprojection in Python 2024 - what’s available and what’s next',
+    url: '',
+    date: '2024-09-25',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Max Jones',
+        github: '@maxrjones',
+      },
+    ],
+  },  
+  {
     title:
       'Project Pythia Cookbooks: challenges and progress in breaking down barriers to Open Science',
     url: '',
