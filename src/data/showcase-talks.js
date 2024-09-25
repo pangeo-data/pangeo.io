@@ -7,7 +7,7 @@ export const FutureShowcaseTalks = [
     authors: [
       {
         name: 'Max Jones',
-        github: '@maxrjones',
+        github: 'maxrjones',
       },
     ],
   },  
