@@ -45,10 +45,10 @@
     "swr": "^2.2.5"
   },
   "devDependencies": {
-    "@types/react": "^18.3.5",
-    "eslint": "^9.10.0",
-    "eslint-config-next": "14.2.9",
-    "playwright": "^1.47.0",
+    "@types/react": "^18.3.10",
+    "eslint": "^9.11.1",
+    "eslint-config-next": "14.2.13",
+    "playwright": "^1.47.2",
     "typescript": ">=5.5.4",
     "webpack": "^5.94.0"
   }
