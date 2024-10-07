@@ -1046,10 +1046,10 @@
   dependencies:
     levn "^0.4.1"
 
-"@fontsource-variable/inter@^5.0.20":
-  version "5.0.20"
-  resolved "https://registry.yarnpkg.com/@fontsource-variable/inter/-/inter-5.0.20.tgz#d061d4484713f6d417def7ec6de7db4b0a58738f"
-  integrity sha512-dhzG4Zls/tIrf8h0FhTNi8jT/uFwNhdTY2vKe6DYqoXDYOfEcTVZDyh1hKml1rlLT44Y7OoKoGz8w7czDW7twQ==
+"@fontsource-variable/inter@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/inter/-/inter-5.1.0.tgz#8174c56d3a24ef20a7dd4ae3bb0c3df2ea1f5f70"
+  integrity sha512-Wj2dUGP0vUpxRGQTXQTCNJO+aLcFcQm+gUPXfj/aS877bQkEPBPv9JvZJpwdm2vzelt8NTZ+ausKlBCJjh2XIg==
 
 "@giscus/react@^3.0.0":
   version "3.0.0"
