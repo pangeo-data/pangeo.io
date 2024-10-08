@@ -53,7 +53,7 @@ export const WorkingGroups = [
   {
     name: 'Pangeo Forge',
     description: 'Coordinating development on Pangeo Forge.',
-    schedule: 'Every other Monday at 2pm ET',
+    schedule: 'Every other Wednesday at 2pm ET',
     conferencing: 'https://whereby.com/pangeo',
     notes:
       'https://docs.google.com/document/d/14FpI9vaM6TeFtmM7LP9o_d5DZaYKgQVTTzT7tFRt-Nw/edit#heading=h.rdvtuxpqyxy',
