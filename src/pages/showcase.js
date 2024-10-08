@@ -18,7 +18,7 @@ import { motion } from 'framer-motion'
 import { Layout } from '@/components/layout'
 import { Link } from '@/components/mdx'
 import { distanceToNow, formatDate, formatTime } from '@/lib/date-formatting'
-import { FutureShowcaseTalks, PastShowcaseTalks } from '@/data/showcase-talks'
+import { ShowcaseTalks } from '@/data/showcase-talks'
 
 const SinglePresentation = ({ page }) => {
   const date = new Date(page.date)
@@ -105,11 +105,11 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {FutureShowcaseTalks.sort(
-              (a, b) => Date.parse(a.date) - Date.parse(b.date),
-            ).map((page) => {
-              return <SinglePresentation key={page.id} page={page} />
-            })}
+            {ShowcaseTalks.filter((page) => Date.parse(page.date) >= Date.now())
+              .sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
+              .map((page) => {
+                return <SinglePresentation key={page.date} page={page} />
+              })}
           </VStack>
           <Divider my={2} borderColor='gray.200' />
         </Container>
@@ -127,11 +127,11 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {PastShowcaseTalks.sort(
-              (a, b) => Date.parse(b.date) - Date.parse(a.date),
-            ).map((page) => {
-              return <SinglePresentation key={page.id} page={page} />
-            })}
+            {ShowcaseTalks.filter((page) => Date.parse(page.date) < Date.now())
+              .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+              .map((page) => {
+                return <SinglePresentation key={page.date} page={page} />
+              })}
           </VStack>
           <Divider my={2} borderColor='gray.200' />
         </Container>
