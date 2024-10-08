@@ -1,7 +1,8 @@
-export const FutureShowcaseTalks = [
+export const ShowcaseTalks = [
   {
-    title: 'Geospatial reprojection in Python 2024 - what’s available and what’s next',
-    url: '',
+    title:
+      'Geospatial reprojection in Python 2024 - what’s available and what’s next',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-geospatial-reprojection-in-python-2024-whats-available-and-whats-next/4531/14',
     date: '2024-09-25',
     time: '4PM EDT',
     authors: [
@@ -10,11 +11,11 @@ export const FutureShowcaseTalks = [
         github: 'maxrjones',
       },
     ],
-  },  
+  },
   {
     title:
       'Project Pythia Cookbooks: challenges and progress in breaking down barriers to Open Science',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-project-pythia-cookbooks-challenges-and-progress-in-breaking-down-barriers-to-open-science/4549',
     date: '2024-10-02',
     time: '12PM EDT',
     authors: [
@@ -70,13 +71,17 @@ export const FutureShowcaseTalks = [
   },
   {
     title: 'marimo: a reactive notebook for Python that lets you make apps',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-marimo-an-open-source-reactive-notebook-for-python/4572',
     date: '2024-10-09',
     time: '4PM EDT',
     authors: [
       {
         name: 'Akshay Agrawal',
         github: 'akshayka',
+      },
+      {
+        name: 'Myles Scolnick',
+        github: 'mscolnick',
       },
     ],
   },
@@ -153,8 +158,6 @@ export const FutureShowcaseTalks = [
       },
     ],
   },
-]
-export const PastShowcaseTalks = [
   {
     title:
       'Pangeo ML: Open source tools and pipelines for scalable machine learning using NASA Earth observation data',
