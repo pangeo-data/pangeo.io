@@ -3,7 +3,7 @@ export const ShowcaseTalks = [
     title:
       'Geospatial reprojection in Python 2024 - what’s available and what’s next',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-geospatial-reprojection-in-python-2024-whats-available-and-whats-next/4531/14',
-    date: '2024-09-25',
+    date: '2024-09-25T16:00-04:00',
     time: '4PM EDT',
     authors: [
       {
@@ -16,7 +16,7 @@ export const ShowcaseTalks = [
     title:
       'Project Pythia Cookbooks: challenges and progress in breaking down barriers to Open Science',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-project-pythia-cookbooks-challenges-and-progress-in-breaking-down-barriers-to-open-science/4549',
-    date: '2024-10-02',
+    date: '2024-10-02T12:00-04:00',
     time: '12PM EDT',
     authors: [
       {
@@ -72,7 +72,7 @@ export const ShowcaseTalks = [
   {
     title: 'marimo: a reactive notebook for Python that lets you make apps',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-marimo-an-open-source-reactive-notebook-for-python/4572',
-    date: '2024-10-09',
+    date: '2024-10-09T16:00-04:00',
     time: '4PM EDT',
     authors: [
       {
@@ -89,7 +89,7 @@ export const ShowcaseTalks = [
     title:
       'HYCOM-OceanTrack: Integrated HYCOM Eulerian Fields and Lagrangian Trajectories Dataset',
     url: '',
-    date: '2024-10-16',
+    date: '2024-10-16T12:00-04:00',
     time: '12PM EDT',
     authors: [
       {
@@ -101,7 +101,7 @@ export const ShowcaseTalks = [
   {
     title: 'Progress with Xpublish-based APIs',
     url: '',
-    date: '2024-10-23',
+    date: '2024-10-23T16:00-04:00',
     time: '4PM EDT',
     authors: [
       {
@@ -113,7 +113,7 @@ export const ShowcaseTalks = [
   {
     title: 'Awesome Panel',
     url: '',
-    date: '2024-10-30',
+    date: '2024-10-30T12:00-04:00',
     time: '12PM EDT',
     authors: [
       {
@@ -125,7 +125,7 @@ export const ShowcaseTalks = [
   {
     title: 'VEDA: NASA’s Visualization, Exploration and Data Analysis Project',
     url: '',
-    date: '2024-11-06',
+    date: '2024-11-06T16:00-05:00',
     time: '4PM EST',
     authors: [
       {
@@ -137,7 +137,7 @@ export const ShowcaseTalks = [
   {
     title: 'flox: GroupBy, now with smarts!',
     url: '',
-    date: '2024-11-13',
+    date: '2024-11-13T12:00-05:00',
     time: '12PM EST',
     authors: [
       {
@@ -149,7 +149,7 @@ export const ShowcaseTalks = [
   {
     title: 'Arkouda as an XArray backend for HPC',
     url: '',
-    date: '2024-11-20',
+    date: '2024-11-20T16:00-05:00',
     time: '4PM EST',
     authors: [
       {
