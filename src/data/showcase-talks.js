@@ -99,14 +99,14 @@ export const ShowcaseTalks = [
     ],
   },
   {
-    title: 'Progress with Xpublish-based APIs',
+    title: 'Icechunk: An Open-Source Transactional Storage Engine for Zarr',
     url: '',
     date: '2024-10-23T16:00-04:00',
     time: '4PM EDT',
     authors: [
       {
-        name: 'Alex Kerney',
-        github: 'abkfenris',
+        name: 'Ryan Abernathy',
+        github: 'rabernat',
       },
     ],
   },
