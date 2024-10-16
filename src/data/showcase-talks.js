@@ -100,7 +100,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Icechunk: An Open-Source Transactional Storage Engine for Zarr',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-icechunk-an-open-source-transactional-storage-engine-for-zarr/4612',
     date: '2024-10-23T16:00-04:00',
     time: '4PM EDT',
     authors: [
