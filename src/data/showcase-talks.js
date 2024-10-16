@@ -88,7 +88,7 @@ export const ShowcaseTalks = [
   {
     title:
       'HYCOM-OceanTrack: Integrated HYCOM Eulerian Fields and Lagrangian Trajectories Dataset',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-hycom-oceantrack-from-17-518-netcdf-files-to-an-analysis-ready-cloud-optimized-dataset-in-the-cloud/4597',
     date: '2024-10-16T12:00-04:00',
     time: '12PM EDT',
     authors: [
