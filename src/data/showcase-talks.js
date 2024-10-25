@@ -112,7 +112,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Awesome Panel',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-awesome-panel/4629',
     date: '2024-10-30T12:00-04:00',
     time: '12PM EDT',
     authors: [
@@ -155,6 +155,18 @@ export const ShowcaseTalks = [
       {
         name: 'Jeremiah Corrado',
         github: 'jeremiah-corrado',
+      },
+    ],
+  },
+  {
+    title: 'xdggs: discrete global grid systems with xarray',
+    url: '',
+    date: '2024-12-06T12:00-05:00',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Justus Magin',
+        github: 'keewis',
       },
     ],
   },
