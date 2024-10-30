@@ -161,8 +161,8 @@ export const ShowcaseTalks = [
   {
     title: 'xdggs: discrete global grid systems with xarray',
     url: '',
-    date: '2024-12-06T12:00-05:00',
-    time: '12PM EST',
+    date: '2024-12-04T16:00-05:00',
+    time: '4PM EST',
     authors: [
       {
         name: 'Justus Magin',
