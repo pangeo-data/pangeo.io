@@ -1,5 +1,5 @@
 {
-  "name": "xarray.dev",
+  "name": "pangeo.io",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xarray-contrib/xarray.dev.git"
+    "url": "git+https://github.com/pangeo-data/pangeo.io.git"
   },
-  "author": "Xarray Developers & Contributors",
+  "author": "Xarray + Pangeo Developers & Contributors",
   "license": "Apache 2.0",
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
