@@ -607,104 +607,457 @@ export const ShowcaseTalks = [
       },
     ],
   },
+  {
+    title: 'Mental Health for Geoscientists',
+    url: 'https://discourse.pangeo.io/t/wednesday-february-8th-mental-health-in-the-geosciences/3211',
+    date: '2023-02-08',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'Alex Kerney',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Xarray-Datatree: Hierarchical Data Structures for Multi-Model Science',
+    url: 'https://discourse.pangeo.io/t/wednesday-february-1st-xarray-datatree-hierarchical-data-structures-for-multi-model-science/3207',
+    date: '2023-02-01',
+    time: '4PM EST',
+    authors: [
+      {
+        name: 'Tom Nicholas',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Major advances in HoloViz: GUI explorer to build plots, interactive pipelines, and publish in-browser apps',
+    url: 'https://discourse.pangeo.io/t/wednesday-november-16th-2022-major-advances-in-holoviz-for-pangeo-gui-explorer-to-build-plots-easy-interactive-pipelines-and-publishing-in-browser-apps/2876',
+    date: '2022-11-16',
+    time: '12PM EST',
+    authors: [
+      {
+        name: 'James A. Bednar',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'GeoPandas: Easy, fast and scalable geospatial analysis in Python',
+    url: 'https://discourse.pangeo.io/t/wednesday-november-9th-2022-geopandas-easy-fast-and-scalable-geospatial-analysis-in-python/2895',
+    date: '2022-11-09',
+    time: '4PM EST',
+    authors: [
+      {
+        name: 'Joris Van den Bossche',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Jupyter book tutorials demonstrating xarray-based workflows for cloud-hosted remote sensing data',
+    url: 'https://discourse.pangeo.io/t/wednesday-november-2nd-2022-jupyter-book-tutorials-demonstrating-xarray-based-workflows-for-cloud-hosted-remote-sensing-data/2834',
+    date: '2022-11-02',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Emma Marshall',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'openEO: What it is and how it relates to Pangeo',
+    url: 'https://discourse.pangeo.io/t/wednesday-october-19th-2022-openeo-what-it-is-and-how-it-relates-to-pangeo/2826',
+    date: '2022-10-19',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Matthias Mohr',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Xbitinfo: Compress datasets based on their information content',
+    url: 'https://discourse.pangeo.io/t/wednesday-october-26th-2022-xbitinfo-compress-datasets-based-on-their-information/2830',
+    date: '2022-10-26',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Hauke Schulz',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'My ERA5 Journey: From API-to-ARCO',
+    url: 'https://discourse.pangeo.io/t/wednesday-october-12th-2022-my-era5-journey-from-api-to-arco/2814',
+    date: '2022-10-12',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Rich Signell',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'PyOpenSci',
+    url: 'https://discourse.pangeo.io/t/wednesday-october-5th-2022-pyopensci-a-diverse-community-that-supports-open-tools-that-drive-open-science/2783',
+    date: '2022-10-05',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Leah Wasser',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk',
+    url: 'https://discourse.pangeo.io/t/september-21th-2022-accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk/2749',
+    date: '2022-09-21',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Peter Marsh',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'flox: Fast & furious GroupBy reductions with Dask at Pangeo-scale',
+    url: 'https://discourse.pangeo.io/t/november-17-2021-flox-fast-furious-groupby-reductions-with-dask-at-pangeo-scale/2016',
+    date: '2021-11-17',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Deepak Cherian',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Introducing Project Raijin, Community Geoscience Analysis Tools for Unstructured Mesh Data',
+    url: 'https://discourse.pangeo.io/t/november-10-2021-introducing-project-raijin-community-geoscience-analysis-tools-for-unstructured-mesh-data/1923',
+    date: '2021-11-10',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'John Clyne',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'xcube - Python package for Earth Observation data cubes',
+    url: 'https://discourse.pangeo.io/t/november-3-2021-xcube-python-package-for-earth-observation-data-cubes/1903',
+    date: '2021-11-03',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Gunnar Brandt',
+        github: '',
+      },
+      {
+        name: 'Norman Fomferra',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'A New Toolkit for Visualizing Zarr Data in Web Maps',
+    url: 'https://discourse.pangeo.io/t/october-27-2021-a-new-toolkit-for-visualizing-zarr-data-in-web-maps/1891',
+    date: '2021-10-27',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Kata Martin',
+        github: '',
+      },
+      {
+        name: 'Joe Hamman',
+        github: '',
+      },
+      {
+        name: 'Jeremy Freeman',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Scalable Sustainability with the Planetary Computer',
+    url: 'https://discourse.pangeo.io/t/october-20-2021-scalable-sustainability-with-the-planetary-computer/1874',
+    date: '2021-10-20',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Tom Augspurger',
+        github: '',
+      },
+      {
+        name: 'Dan Morris',
+        github: '',
+      },
+      {
+        name: 'Rob Emanuele',
+        github: '',
+      },
+      {
+        name: 'Matt McFarland',
+        github: '',
+      },
+      {
+        name: 'Bruno Sanchez-Andrade Nuno',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Software Citation Guidance for Geoscience Communities',
+    url: 'https://discourse.pangeo.io/t/october-13-2021-software-citation-guidance-for-geoscience-communities/1873',
+    date: '2021-10-13',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Keith Maull',
+        github: '',
+      },
+      {
+        name: 'Matt Mayernik',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Earthquakes and Moving Plates in the Clouds',
+    url: 'https://discourse.pangeo.io/t/october-6-2021-earthquakes-and-moving-plates-in-the-cloud/1836',
+    date: '2021-10-06',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Ted Habermann',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Introducing pyPI: Tropical Cyclone Potential Intensity Calculations in Python',
+    url: 'https://discourse.pangeo.io/t/september-29-2021-introducing-pypi-tropical-cyclone-potential-intensity-calculations-in-python/1822',
+    date: '2021-09-29',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Daniel Gilford',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Navigating the Clouds on the Horizon: A Vision for Reproducible Hydrologic Modeling in the Cloud',
+    url: 'https://discourse.pangeo.io/t/september-22-2021-navigating-the-clouds-on-the-horizon-a-vision-for-reproducible-hydrologic-modeling-in-the-cloud/1809',
+    date: '2021-09-22',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Alejandro Flores',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'The NWS Implementation of the OGC API - Environmental Data Retrieval',
+    url: 'https://discourse.pangeo.io/t/september-15-2021-the-nws-implementation-of-the-ogc-api-environmental-data-retrieval/1808',
+    date: '2021-09-15',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Shane Mill',
+        github: '',
+      },
+      {
+        name: 'Steve Olson',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'The NASA-Openscapes Framework',
+    url: 'https://discourse.pangeo.io/t/june-30-2021-the-nasa-openscapes-framework/1631',
+    date: '2021-06-30',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Julia Lowndes',
+        github: '',
+      },
+      {
+        name: 'Erin Robinson',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Project Pythia: a community learning resource for Python-based computing in the geosciences',
+    url: 'https://discourse.pangeo.io/t/june-23-2021-project-pythia-a-community-learning-resource-for-python-based-computing-in-the-geosciences/1601',
+    date: '2021-06-23',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Julia Lowndes',
+        github: '',
+      },
+      {
+        name: 'Erin Robinson',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'SmartSim: Online Analytics and Machine Learning for HPC Simulations',
+    url: 'https://discourse.pangeo.io/t/june-16-2021-smartsim-online-analytics-and-machine-learning-for-hpc-simulations/1583',
+    date: '2021-06-16',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Sam Partee',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Streamline your Data Science projects with Ploomber',
+    url: 'https://discourse.pangeo.io/t/june-9-2021-streamline-data-science-projects-with-ploomber/1546',
+    date: '2021-06-09',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Eduardo Blancas Reyes',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Coiled: Dask as a Service',
+    url: 'https://discourse.pangeo.io/t/june-2-2021-coiled-dask-as-a-service/1557',
+    date: '2021-06-02',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Matthew Rocklin',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Accessing Hydrology and Climatology database using web services through Python',
+    url: 'https://discourse.pangeo.io/t/may-26-2021-accessing-hydrology-and-climatology-database-using-web-services-through-python/1521',
+    date: '2021-05-26',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Taher Chegini',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Accessing Sea Surface Temperature Data on the Cloud',
+    url: 'https://discourse.pangeo.io/t/may-19-2021-accessing-sea-surface-temperature-data-on-the-cloud/1503',
+    date: '2021-05-19',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Chelle Gentemann',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'The new era of SAR time series: Tackling big EO data analysis and visualization with Pangeo tools',
+    url: 'https://discourse.pangeo.io/t/may-12-2021-the-new-era-of-sar-time-series-tackling-big-eo-data-analysis-and-visualization-with-pangeo-tools/1475',
+    date: '2021-05-12',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Josef Kellndorfer',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'OCESE: Open Source Computing for Earth Science Education',
+    url: 'https://discourse.pangeo.io/t/may-5-2021-ocese-open-source-computing-for-earth-science-education/1443',
+    date: '2021-05-05',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Philip Austin',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'FAIR Climate Services using the Xarray ecosystem and OGC Standards',
+    url: 'https://discourse.pangeo.io/t/april-28-2021-fair-climate-services-using-the-xarray-ecosystem-and-ogc-standards/1431',
+    date: '2021-04-28',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'David Huard',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Build, customize and run models with Xarray-Simlab',
+    url: 'https://discourse.pangeo.io/t/april-21-2021-build-customize-and-run-models-with-xarray-simlab/1417',
+    date: '2021-04-21',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Benoît Bovy',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'The New Qhub 0.3: An easy way to deploy/maintain JupyterHub with Dask Gateway',
+    url: 'https://discourse.pangeo.io/t/april-14-2021-the-new-qhub-0-3-an-easy-way-to-deploy-maintain-jupyterhub-with-dask-gateway/1399',
+    date: '2021-04-14',
+    time: '4PM EDT',
+    authors: [
+      {
+        name: 'Lais Carvalho',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'Parallel Analysis Using Pangeo vs the Command-Line',
+    url: 'https://discourse.pangeo.io/t/april-7-2021-parallel-analysis-using-pangeo-vs-the-command-line/1373',
+    date: '2021-04-07',
+    time: '12PM EDT',
+    authors: [
+      {
+        name: 'Seth McGinnis',
+        github: '',
+      },
+    ],
+  },
 ]
-
-// * - 2023-02-08 12PM EST
-//   - Alex Kerney, Gulf of Maine Research Institute
-//   - `Mental Health for Geoscientists <https://discourse.pangeo.io/t/wednesday-february-8th-mental-health-in-the-geosciences/3211>`_ |Kerney DOI Badge|
-// * - 2023-02-01 4PM EST
-//   - Tom Nicholas, Columbia University
-//   - `Xarray-Datatree: Hierarchical Data Structures for Multi-Model Science <https://discourse.pangeo.io/t/wednesday-february-1st-xarray-datatree-hierarchical-data-structures-for-multi-model-science/3207>`_ |Nicholas DOI Badge|
-// * - 2022-11-16 12PM EST
-//   - James A. Bednar, Anaconda
-//   - `Major advances in HoloViz: GUI explorer to build plots, interactive pipelines, and publish in-browser apps <https://discourse.pangeo.io/t/wednesday-november-16th-2022-major-advances-in-holoviz-for-pangeo-gui-explorer-to-build-plots-easy-interactive-pipelines-and-publishing-in-browser-apps/2876>`_ |Bednar.A DOI Badge|
-// * - 2022-11-09 4PM EST
-//   - Joris Van den Bossche, GeoPandas / Voltron Data
-//   - `GeoPandas: Easy, fast and scalable geospatial analysis in Python <https://discourse.pangeo.io/t/wednesday-november-9th-2022-geopandas-easy-fast-and-scalable-geospatial-analysis-in-python/2895>`_ |Bossche DOI Badge|
-// * - 2022-11-02 12PM EDT
-//   - Emma Marshall, University of Utah
-//   - `Jupyter book tutorials demonstrating xarray-based workflows for cloud-hosted remote sensing data <https://discourse.pangeo.io/t/wednesday-november-2nd-2022-jupyter-book-tutorials-demonstrating-xarray-based-workflows-for-cloud-hosted-remote-sensing-data/2834>`_ |Marshall DOI Badge|
-// * - 2022-10-19 12PM EDT
-//   - Matthias Mohr, openEO
-//   - `openEO: What it is and how it relates to Pangeo <https://discourse.pangeo.io/t/wednesday-october-19th-2022-openeo-what-it-is-and-how-it-relates-to-pangeo/2826>`_ |Jacob DOI Badge|
-// * - 2022-10-26 4PM EDT
-//   - Hauke Schulz, CICOES/University of Washington
-//   - `Xbitinfo: Compress datasets based on their information content <https://discourse.pangeo.io/t/wednesday-october-26th-2022-xbitinfo-compress-datasets-based-on-their-information/2830>`_ |Hauke DOI Badge|
-// * - 2022-10-12 4PM EDT
-//   - Rich Signell, USGS
-//   - `My ERA5 Journey: From API-to-ARCO <https://discourse.pangeo.io/t/wednesday-october-12th-2022-my-era5-journey-from-api-to-arco/2814>`_ |Signell DOI Badge|
-// * - 2022-10-05 12PM EDT
-//   - Leah Wasser, pyOpenSci
-//   - `PyOpenSci <https://discourse.pangeo.io/t/wednesday-october-5th-2022-pyopensci-a-diverse-community-that-supports-open-tools-that-drive-open-science/2783>`_ |Wasser DOI Badge|
-// * - 2022-09-21 12PM EDT
-//   - Peter Marsh, University of Cape Town
-//   - `Accessing NetCDF and GRIB file collections as cloud-native virtual datasets using Kerchunk <https://discourse.pangeo.io/t/september-21th-2022-accessing-netcdf-and-grib-file-collections-as-cloud-native-virtual-datasets-using-kerchunk/2749>`_ |Marsh DOI Badge|
-// * - 2021-11-17 12PM EDT
-//   - Deepak Cherian, NCAR
-//   - `flox: Fast & furious GroupBy reductions with Dask at Pangeo-scale <https://discourse.pangeo.io/t/november-17-2021-flox-fast-furious-groupby-reductions-with-dask-at-pangeo-scale/2016>`_ |Cherian DOI Badge|
-// * - 2021-11-10 4PM EDT
-//   - John Clyne, NCAR
-//   - `Introducing Project Raijin, Community Geoscience Analysis Tools for Unstructured Mesh Data <https://discourse.pangeo.io/t/november-10-2021-introducing-project-raijin-community-geoscience-analysis-tools-for-unstructured-mesh-data/1923>`_ |Clyne DOI Badge|
-// * - 2021-11-03 12PM EDT
-//   - Gunnar Brandt and  Norman Fomferra, Brockmann Consult GmbH
-//   - `xcube - Python package for Earth Observation data cubes <https://discourse.pangeo.io/t/november-3-2021-xcube-python-package-for-earth-observation-data-cubes/1903>`_ |Brandt DOI Badge|
-// * - 2021-10-27 4PM EDT
-//   - Kata Martin, Joe Hamman, and Jeremy Freeman, CarbonPlan
-//   - `A New Toolkit for Visualizing Zarr Data in Web Maps <https://discourse.pangeo.io/t/october-27-2021-a-new-toolkit-for-visualizing-zarr-data-in-web-maps/1891>`_ |Martin DOI Badge|
-// * - 2021-10-20 12PM EDT
-//   - Tom Augspurger, Dan Morris, Rob Emanuele, Matt McFarland, and Bruno Sanchez-Andrade Nuno, Microsoft
-//   - `Scalable Sustainability with the Planetary Computer <https://discourse.pangeo.io/t/october-20-2021-scalable-sustainability-with-the-planetary-computer/1874>`_ |Augspurger DOI Badge|
-// * - 2021-10-13 4PM EDT
-//   - Keith Maull and Matt Mayernik, NCAR
-//   - `Software Citation Guidance for Geoscience Communities <https://discourse.pangeo.io/t/october-13-2021-software-citation-guidance-for-geoscience-communities/1873>`_ |Maull DOI Badge|
-// * - 2021-10-06 12PM EDT
-//   - Ted Habermann, Metadata Game Changers
-//   - `Earthquakes and Moving Plates in the Clouds <https://discourse.pangeo.io/t/october-6-2021-earthquakes-and-moving-plates-in-the-cloud/1836>`_ |Habermann DOI Badge|
-// * - 2021-09-29 4PM EDT
-//   - Daniel Gilford, Climate Central
-//   - `Introducing pyPI: Tropical Cyclone Potential Intensity Calculations in Python <https://discourse.pangeo.io/t/september-29-2021-introducing-pypi-tropical-cyclone-potential-intensity-calculations-in-python/1822>`_ |Gilford DOI Badge|
-// * - 2021-09-22 12PM EDT
-//   - Alejandro Flores, Boise State University
-//   - `Navigating the Clouds on the Horizon: A Vision for Reproducible Hydrologic Modeling in the Cloud <https://discourse.pangeo.io/t/september-22-2021-navigating-the-clouds-on-the-horizon-a-vision-for-reproducible-hydrologic-modeling-in-the-cloud/1809>`_ |Flores DOI Badge|
-// * - 2021-09-15 4PM EDT
-//   - Shane Mill and Steve Olson, NOAA - National Weather Service
-//   - `The NWS Implementation of the OGC API - Environmental Data Retrieval <https://discourse.pangeo.io/t/september-15-2021-the-nws-implementation-of-the-ogc-api-environmental-data-retrieval/1808>`_ |Mill DOI Badge|
-// * - 2021-06-30 12pm EDT
-//   - Julia Lowndes and Erin Robinson, Openscapes
-//   -  `The NASA-Openscapes Framework <https://discourse.pangeo.io/t/june-30-2021-the-nasa-openscapes-framework/1631>`_ |Lowndes DOI Badge|
-// * - 2021-06-23 4pm EDT
-//   - Brian Rose, University at Albany
-//   - `Project Pythia: a community learning resource for Python-based computing in the geosciences <https://discourse.pangeo.io/t/june-23-2021-project-pythia-a-community-learning-resource-for-python-based-computing-in-the-geosciences/1601>`_ |Rose DOI Badge|
-// * - 2021-06-16 12pm EDT
-//   - Sam Partee, Hewlett Packard Enterprise
-//   - `SmartSim: Online Analytics and Machine Learning for HPC Simulations <https://discourse.pangeo.io/t/june-16-2021-smartsim-online-analytics-and-machine-learning-for-hpc-simulations/1583>`_ |Partee DOI Badge|
-// * - 2021-06-09 4pm EDT
-//   - Eduardo Blancas Reyes, Ploomber
-//   - `Streamline your Data Science projects with Ploomber <https://discourse.pangeo.io/t/june-9-2021-streamline-data-science-projects-with-ploomber/1546>`_ |Blancas Reyes DOI Badge|
-// * - 2021-06-02 12pm EDT
-//   - Matthew Rocklin, Coiled
-//   - `Coiled: Dask as a Service <https://discourse.pangeo.io/t/june-2-2021-coiled-dask-as-a-service/1557>`_ |Rocklin DOI Badge|
-// * - 2021-05-26 4pm EDT
-//   - Taher Chegini, University of Houston, Texas
-//   - `Accessing Hydrology and Climatology database using web services through Python <https://discourse.pangeo.io/t/may-26-2021-accessing-hydrology-and-climatology-database-using-web-services-through-python/1521>`_ |Chegini DOI Badge|
-// * - 2021-05-19 12pm EDT
-//   - Chelle Gentemann, Farallon Institute
-//   - `Accessing Sea Surface Temperature Data on the Cloud <https://discourse.pangeo.io/t/may-19-2021-accessing-sea-surface-temperature-data-on-the-cloud/1503>`_ |Gentemann DOI Badge|
-// * - 2021-05-12 4pm EDT
-//   - Josef Kellndorfer, Earth Big Data
-//   - `The new era of SAR time series: Tackling big EO data analysis and visualization with Pangeo tools <https://discourse.pangeo.io/t/may-12-2021-the-new-era-of-sar-time-series-tackling-big-eo-data-analysis-and-visualization-with-pangeo-tools/1475>`_ |Kellndorfer DOI Badge|
-// * - 2021-05-05 12pm EDT
-//   - Philip Austin, University of British Columbia
-//   - `OCESE: Open Source Computing for Earth Science Education <https://discourse.pangeo.io/t/may-5-2021-ocese-open-source-computing-for-earth-science-education/1443>`_ |Austin DOI Badge|
-// * - 2021-04-28 4pm EDT
-//   - David Huard, Ouranos
-//   - `FAIR Climate Services using the Xarray ecosystem and OGC Standards <https://discourse.pangeo.io/t/april-28-2021-fair-climate-services-using-the-xarray-ecosystem-and-ogc-standards/1431>`_ |Huard DOI Badge|
-// * - 2021-04-21 12pm EDT
-//   - Benoît Bovy, GFZ-Potsdam, Freelance
-//   - `Build, customize and run models with Xarray-Simlab <https://discourse.pangeo.io/t/april-21-2021-build-customize-and-run-models-with-xarray-simlab/1417>`_ |Bovy DOI Badge|
-// * - 2021-04-14 4pm EDT
-//   - Lais Carvalho, QuanSight
-//   - `The New Qhub 0.3: An easy way to deploy/maintain JupyterHub with Dask Gateway <https://discourse.pangeo.io/t/april-14-2021-the-new-qhub-0-3-an-easy-way-to-deploy-maintain-jupyterhub-with-dask-gateway/1399>`_ |Carvalho DOI Badge|
-// * - 2021-04-07 12PM EDT
-//   - Seth McGinnis, NCAR
-//   - `Parallel Analysis Using Pangeo vs the Command-Line <https://discourse.pangeo.io/t/april-7-2021-parallel-analysis-using-pangeo-vs-the-command-line/1373>`_ |McGinnis DOI Badge|
