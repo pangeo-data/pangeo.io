@@ -1,6 +1,6 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Link as ChakraLink } from '@chakra-ui/react'
-import NextLink from 'next/link'
+import { Image } from '@chakra-ui/react'
 import React from 'react'
 
 export const Link = React.forwardRef(function CustomLink(props, ref) {
@@ -23,3 +23,14 @@ export const Link = React.forwardRef(function CustomLink(props, ref) {
     </ChakraLink>
   )
 })
+
+export const DOI = (props) => {
+  const doi = props.doi
+  if (doi) {
+    return (
+      <Link href={`https://doi.org/${doi}`}>
+        <Image src={`https://zenodo.org/badge/DOI/${doi}.svg`} alt='DOI' />
+      </Link>
+    )
+  }
+}

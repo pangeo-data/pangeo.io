@@ -107,7 +107,7 @@ export const ShowcaseTalks = [
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-icechunk-an-open-source-transactional-storage-engine-for-zarr/4612',
     date: '2024-10-23T16:00-04:00',
     time: '4PM EDT',
-    doi: '',
+    doi: '10.5281/zenodo.13989108',
     authors: [
       {
         name: 'Ryan Abernathy',

@@ -16,7 +16,7 @@ import {
 import { motion } from 'framer-motion'
 
 import { Layout } from '@/components/layout'
-import { Link } from '@/components/mdx'
+import { Link, DOI } from '@/components/mdx'
 import { distanceToNow, formatDate, formatTime } from '@/lib/date-formatting'
 import { ShowcaseTalks } from '@/data/showcase-talks'
 
@@ -39,14 +39,10 @@ const SinglePresentation = ({ page }) => {
           <Link href={page.url} fontSize={'xl'} fontWeight={'bold'}>
             {page.title}
           </Link>
-
           <Text fontSize={'sm'} color={'gray.600'} py={4}>
             {formatDate(date)} {page.time} ({distanceToNow(date)})
           </Text>
-
-          <Text noOfLines={3} py={4}>
-            {page.summary}
-          </Text>
+          <DOI doi={page.doi}> </DOI>
         </Box>
         <Spacer />
         <Box>
