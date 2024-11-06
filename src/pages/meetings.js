@@ -31,23 +31,21 @@ export default function Showcase({}) {
           </Heading>
           <Text fontSize={'lg'}>
             Pangeo gathers regularly through community meetings and working
-            groups.
+            groups.{' '}
+            <Link
+              href={'/calendar'}
+              color={useColorModeValue('gray.600', 'gray.200')}
+              _hover={{
+                textDecoration: 'none',
+                // eslint-disable-next-line react-hooks/rules-of-hooks
+                color: useColorModeValue('gray.800', 'white'),
+              }}
+              textDecoration={'underline'}
+              fontSize={'lg'}
+            >
+              View the community calendar here.
+            </Link>
           </Text>
-
-          <Link
-            href={'/calendar'}
-            color={useColorModeValue('gray.600', 'gray.200')}
-            _hover={{
-              textDecoration: 'none',
-              // eslint-disable-next-line react-hooks/rules-of-hooks
-              color: useColorModeValue('gray.800', 'white'),
-            }}
-            fontWeight={'bold'}
-            fontSize={'lg'}
-          >
-            {' '}
-            View and add the community calendar here.
-          </Link>
           <SimpleGrid
             my={8}
             columns={{ base: 1, md: 2, lg: 2 }}
