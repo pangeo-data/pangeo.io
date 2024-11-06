@@ -19,7 +19,7 @@ export const MeetingCard = ({
   notes,
 }) => {
   return (
-    <LinkBox
+    <Box
       p={6}
       rounded='lg'
       transitionProperty='all'
@@ -32,42 +32,33 @@ export const MeetingCard = ({
         boxShadow: 'md',
       }}
     >
-      <LinkOverlay
-        href={notes || name}
-        as={Link}
-        _hover={{
-          textDecoration: 'none',
-        }}
-        justify={'left'}
-      >
-        <VStack align={'start'}>
-          <Box>
-            <Heading as='h2' size='1xl'>
-              {name}
-            </Heading>
-            <Text my={4} noOfLines={4}>
-              {schedule}
-            </Text>
-            <Text my={4} noOfLines={4}>
-              {description}
-            </Text>
-            <Stack direction={'row'} align='center' spacing={2}>
+      <VStack align={'start'}>
+        <Box>
+          <Heading as='h2' size='1xl'>
+            {name}
+          </Heading>
+          <Text my={4} noOfLines={4}>
+            {schedule}
+          </Text>
+          <Text my={4} noOfLines={4}>
+            {description}
+          </Text>
+          <Stack direction={'row'} align='center' spacing={2}>
+            <SocialLink
+              href={notes}
+              icon={SiGoogledocs}
+              label={`View ${name}'s notes`}
+            />
+            {conferencing && (
               <SocialLink
-                href={notes}
-                icon={SiGoogledocs}
-                label={`View ${name}'s notes`}
+                href={conferencing}
+                icon={IoIosCall}
+                label={`Join ${name}'s conference call`}
               />
-              {conferencing && (
-                <SocialLink
-                  href={conferencing}
-                  icon={IoIosCall}
-                  label={`Join ${name}'s conference call`}
-                />
-              )}
-            </Stack>
-          </Box>
-        </VStack>
-      </LinkOverlay>
-    </LinkBox>
+            )}
+          </Stack>
+        </Box>
+      </VStack>
+    </Box>
   )
 }
