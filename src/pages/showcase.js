@@ -99,7 +99,9 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {ShowcaseTalks.filter((page) => Date.parse(page.date) >= Date.now())
+            {ShowcaseTalks.filter(
+              (page) => Date.parse(page.date) + 3600000 >= Date.now(),
+            )
               .sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
               .map((page) => {
                 return <SinglePresentation key={page.date} page={page} />
@@ -121,7 +123,9 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {ShowcaseTalks.filter((page) => Date.parse(page.date) < Date.now())
+            {ShowcaseTalks.filter(
+              (page) => Date.parse(page.date) + 3600000 < Date.now(),
+            )
               .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
               .map((page) => {
                 return <SinglePresentation key={page.date} page={page} />
