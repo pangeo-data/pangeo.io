@@ -129,7 +129,7 @@ export const ShowcaseTalks = [
     ],
   },
   {
-    title: 'VEDA: NASA’s Visualization, Exploration and Data Analysis Project',
+    title: 'VEDA: NASA’s Platform for Open Science',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-veda-nasas-platform-for-open-science/4647',
     date: '2024-11-06T16:00-05:00',
     time: '4PM EST',
@@ -142,8 +142,8 @@ export const ShowcaseTalks = [
     ],
   },
   {
-    title: 'flox: GroupBy, now with smarts!',
-    url: '',
+    title: 'Xarray’s GroupBy, oh my!',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-xarrays-groupby-oh-my/4666',
     date: '2024-11-13T12:00-05:00',
     time: '12PM EST',
     doi: '',
