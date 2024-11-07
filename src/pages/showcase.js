@@ -16,7 +16,7 @@ import {
 import { motion } from 'framer-motion'
 
 import { Layout } from '@/components/layout'
-import { Link } from '@/components/mdx'
+import { Link, Doi, ShowcaseTitle } from '@/components/mdx'
 import { distanceToNow, formatDate, formatTime } from '@/lib/date-formatting'
 import { ShowcaseTalks } from '@/data/showcase-talks'
 
@@ -36,17 +36,11 @@ const SinglePresentation = ({ page }) => {
         direction={{ base: 'column', md: 'row' }}
       >
         <Box>
-          <Link href={page.url} fontSize={'xl'} fontWeight={'bold'}>
-            {page.title}
-          </Link>
-
+          <ShowcaseTitle url={page.url} title={page.title}></ShowcaseTitle>
           <Text fontSize={'sm'} color={'gray.600'} py={4}>
             {formatDate(date)} {page.time} ({distanceToNow(date)})
           </Text>
-
-          <Text noOfLines={3} py={4}>
-            {page.summary}
-          </Text>
+          <Doi doi={page.doi}> </Doi>
         </Box>
         <Spacer />
         <Box>
@@ -105,7 +99,9 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {ShowcaseTalks.filter((page) => Date.parse(page.date) >= Date.now())
+            {ShowcaseTalks.filter(
+              (page) => Date.parse(page.date) + 3600000 >= Date.now(),
+            )
               .sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
               .map((page) => {
                 return <SinglePresentation key={page.date} page={page} />
@@ -127,7 +123,9 @@ export default function Showcase({}) {
             spacing={-4}
             align='stretch'
           >
-            {ShowcaseTalks.filter((page) => Date.parse(page.date) < Date.now())
+            {ShowcaseTalks.filter(
+              (page) => Date.parse(page.date) + 3600000 < Date.now(),
+            )
               .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
               .map((page) => {
                 return <SinglePresentation key={page.date} page={page} />
