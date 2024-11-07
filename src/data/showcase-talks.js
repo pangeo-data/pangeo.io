@@ -129,7 +129,7 @@ export const ShowcaseTalks = [
     ],
   },
   {
-    title: 'VEDA: NASA’s Visualization, Exploration and Data Analysis Project',
+    title: 'VEDA: NASA’s Platform for Open Science',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-veda-nasas-platform-for-open-science/4647',
     date: '2024-11-06T16:00-05:00',
     time: '4PM EST',
