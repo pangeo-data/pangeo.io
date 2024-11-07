@@ -142,8 +142,8 @@ export const ShowcaseTalks = [
     ],
   },
   {
-    title: 'flox: GroupBy, now with smarts!',
-    url: '',
+    title: 'Xarray’s GroupBy, oh my!',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-xarrays-groupby-oh-my/4666',
     date: '2024-11-13T12:00-05:00',
     time: '12PM EST',
     doi: '',
