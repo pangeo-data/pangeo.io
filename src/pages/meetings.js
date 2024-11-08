@@ -1,8 +1,14 @@
-import { Box, Button, Container, SimpleGrid, Text } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  SimpleGrid,
+  Text,
+  useColorModeValue,
+} from '@chakra-ui/react'
 import React from 'react'
 
 import { Layout } from '@/components/layout'
-import { Heading, aImage, Link } from '@/components/mdx'
+import { Heading, Link } from '@/components/mdx'
 
 import { MeetingCard } from '@/components/meeting-card'
 import {
@@ -25,9 +31,21 @@ export default function Showcase({}) {
           </Heading>
           <Text fontSize={'lg'}>
             Pangeo gathers regularly through community meetings and working
-            groups.
+            groups.{' '}
+            <Link
+              href={'/calendar'}
+              color={useColorModeValue('gray.600', 'gray.200')}
+              _hover={{
+                textDecoration: 'none',
+                // eslint-disable-next-line react-hooks/rules-of-hooks
+                color: useColorModeValue('gray.800', 'white'),
+              }}
+              textDecoration={'underline'}
+              fontSize={'lg'}
+            >
+              View the community calendar here.
+            </Link>
           </Text>
-
           <SimpleGrid
             my={8}
             columns={{ base: 1, md: 2, lg: 2 }}
