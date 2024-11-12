@@ -46,7 +46,7 @@ export const footerItems = {
     },
     {
       label: 'Events',
-      href: 'https://discourse.pangeo.io/',
+      href: '/events',
     },
   ],
 }
