@@ -26,9 +26,46 @@ export const Libraries = [
     name: 'hvPlot',
     description:
       'A high-level plotting API for the PyData ecosystem built on HoloViews',
-    domains: ['📊 Visualization'],
+    url: 'https://hvplot.holoviz.org/',
     repo: 'https://github.com/holoviz/hvplot',
-    homepage: 'https://hvplot.holoviz.org/',
     logo: '/projects/hvplot-logo_horizontal.svg',
+  },
+  {
+    name: 'Jupyter',
+    description:
+      'Free software, open standards, and web services for interactive computing across all programming languages',
+    url: 'https://jupyter.org/',
+    repo: 'https://github.com/jupyter/',
+    logo: '/projects/logo-from-jupyter-org.svg',
+  },
+  {
+    name: 'VirtualiZarr',
+    description:
+      'Create virtual Zarr stores from archival data files using xarray syntax',
+    url: 'https://virtualizarr.readthedocs.io/',
+    repo: 'https://github.com/zarr-developers/VirtualiZarr',
+    logo: '/projects/VirtualiZarr_MaxJones_Alt1.svg',
+  },
+  {
+    name: 'Kerchunk',
+    description:
+      'Cloud-friendly access to archival data',
+    url: 'https://virtualizarr.readthedocs.io/',
+    repo: 'https://github.com/fsspec/kerchunk',
+    logo: '/projects/kerchunk_png_converted_to_svg.svg',
+  },
+  {
+    name: 'XPublish',
+    description:
+      'Publish Xarray Datasets via a REST API',
+    url: 'https://xpublish.readthedocs.io/',
+    repo: 'https://github.com/xpublish-community/xpublish',
+  },
+  {
+    name: 'Cubed',
+    description:
+      'Bounded-memory serverless distributed N-dimensional array processing',
+    url: 'https://cubed-dev.github.io/cubed/',
+    repo: 'https://github.com/cubed-dev/cubed',
   },
 ]
