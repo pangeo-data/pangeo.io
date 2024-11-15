@@ -26,5 +26,3 @@ We invite contributions focusing on, but not necessarily limited to,
 - Methods and approaches to gauge the impact of FAIR data implementation in ESS
 - Considerations on how AI might help to implement FAIR
 - Future direction for FAIR data in ESS
-
-Follow us
