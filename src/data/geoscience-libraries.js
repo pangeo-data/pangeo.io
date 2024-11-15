@@ -2,83 +2,83 @@ export const Projects = [
   {
     name: 'cf-xarray',
     description:
-      'An accessor for Xarray objects that interprets  Climate and Forecast (CF) metadata convention attributes',
+      'An accessor for Xarray objects that interprets  Climate and Forecast (CF) metadata convention attributes.',
     domains: ['🌎 Geoscience'],
     homepage: 'https://cf-xarray.readthedocs.io',
     repo: 'https://github.com/xarray-contrib/cf-xarray',
-    logo: '/projects/cf-xarray-logo.svg',
+    logo: '/geoscience_libraries/cf-xarray-logo.svg',
   },
   {
     name: 'xgcm',
     description:
-      'General Circulation Model Postprocessing with xarray',
-    domains: ['🌎 Geoscience'],
+      'General Circulation Model Postprocessing with xarray.',
+    domains: ['🌊 Oceanography'],
     homepage: 'https://xgcm.readthedocs.io/',
     repo: 'https://github.com/xgcm/xgcm',
-    logo: '/projects/xgcm-logo.svg',
+    logo: '/geoscience_libraries/xgcm-svglogo.svg',
   },
   {
     name: 'Xarray-Spatial',
     description:
-      'Raster-based Spatial Analytics for Python',
-    domains: ['🌎 Geoscience'],
+      'Raster-based Spatial Analytics for Python.',
+    domains: ['🗺️ Geographic Processing'],
     homepage: 'https://xarray-spatial.readthedocs.io/',
     repo: 'https://github.com/makepath/xarray-spatial',
-    logo: '/projects/Xarray-Spatial-logo.svg',
+    logo: '/geoscience_libraries/Xarray-Spatial-logo.svg',
   },
   {
     name: 'MetPy',
     description:
-      'Collection of tools in Python for reading, visualizing and performing calculations with weather data',
-    domains: ['🌎 Geoscience'],
+      'Collection of tools in Python for reading, visualizing and performing calculations with weather data.',
+    domains: ['🌪🌡 Meteorology'],
     homepage: 'https://unidata.github.io/MetPy/',
     repo: 'https://github.com/Unidata/MetPy',
-    logo: '/projects/metpy_150x150.svg',
+    logo: '/geoscience_libraries/metpy_horizontal.svg',
   },
   {
     name: 'Verde',
     description:
-      'Processing and gridding spatial data, machine-learning style',
-    domains: ['🌎 Geoscience'],
+      'Processing and gridding spatial data, machine-learning style.',
+    domains: ['🗺️ Geographic Processing'],
     homepage: 'https://www.fatiando.org/verde/',
     repo: 'https://github.com/fatiando/verde',
-    logo: '/projects/verde-title.svg',
+    logo: '/geoscience_libraries/verde-title.svg',
   },
   {
     name: 'Climpred',
     description:
-      'Verification of weather and climate forecasts',
+      'Verification of weather and climate forecasts.',
     domains: ['🌎 Geoscience'],
     homepage: 'https://climpred.readthedocs.io/',
     repo: 'https://github.com/pangeo-data/climpred',
-    logo: '/projects/climpred-logo.svg',
+    logo: '/geoscience_libraries/climpred-logo.svg',
   },
   {
     name: 'xcdat',
     description:
-      'An extension of xarray for climate data analysis on structured grids',
+      'An extension of xarray for climate data analysis on structured grids.',
     domains: ['🌎 Geoscience'],
     homepage: 'https://xcdat.readthedocs.io/',
     repo: 'https://github.com/xCDAT/xcdat',
-    logo: '/projects/xcdat.svg',
+    logo: '/geoscience_libraries/xcdat.svg',
   },
   {
     name: 'xvec',
     description:
-      'Vector data cubes for Xarray',
+      'Vector data cubes for Xarray.',
     domains: ['🌎 Geoscience'],
     homepage: 'https://xvec.readthedocs.io/',
     repo: 'https://github.com/xarray-contrib/xvec',
-    logo: '/projects/xvec-logo.svg',
+    logo: '/geoscience_libraries/xvec-logo.svg',
   },
   {
     name: 'UXarray',
     description:
-      'Xarray extension for unstructured climate and global weather data analysis and visualization',
+      'Extension for unstructured climate and global weather data analysis and visualization.',
     domains: ['🌎 Geoscience'],
     homepage: 'https://uxarray.readthedocs.io/',
     repo: 'https://github.com/UXARRAY/uxarray',
-    logo: '/projects/uxarray_logo_h_dark.svg',
+    logo: '/geoscience_libraries/uxarray_logo_h_dark.svg',
   },
 
 ]
