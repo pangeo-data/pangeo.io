@@ -6,13 +6,13 @@ location: 'Vienna, Austria'
 description: 'Harnessing the Power of Pangeo: Enhancing Your Scientific Data Analysis Workflow with scalable open source tools.'
 ---
 ## Overview
-
 - **Pangeo short course - SC 4.14** [https://meetingorganizer.copernicus.org/EGU25/session/53638](https://meetingorganizer.copernicus.org/EGU25/session/53638)
 - **Convener**: [Anne Fouilloux](https://discourse.pangeo.io/u/annefou)
 - **Co-conveners**:  [Tina Odaka](https://discourse.pangeo.io/u/tinaok), [Scott Henderson](https://discourse.pangeo.io/u/scottyhq), [Max Jones](https://discourse.pangeo.io/u/maxrjones), [Justus Magin](https://discourse.pangeo.io/u/keewis)
 - **When**: Sunday, April 27, 2025 (TBA)
 - **Time**: TBA
 
+## About
 The analysis and visualisation of data is fundamental to research across the earth and space sciences. The Pangeo community has built an ecosystem of tools designed to simplify these workflows, centred around the Xarray library for n-dimensional data handling and Dask for parallel computing. In this short course, we will offer a gradual introduction to the Pangeo toolkit, through which participants will learn the skills required to scale their local scientific workflows through cloud computing or large HPC with minimal changes to existing codes.
 The course is beginner-friendly but assumes a prior understanding of the Python language. We will guide you through hands-on jupyter notebooks that showcase scalable analysis of in-situ, satellite observation and earth system modelling datasets to apply your learning. 
 

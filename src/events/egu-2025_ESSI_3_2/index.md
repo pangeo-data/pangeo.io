@@ -13,6 +13,7 @@ description: 'One decade of FAIR Principles: Data Reusability and Impact in Eart
 - **When**: Sunday, April 27, 2025 (TBA)
 - **Time**: TBA
 
+## About
 Almost a decade ago, the FAIR data guiding principles were introduced to the broader research community. These principles proposed a framework to increase the reusability of data in and across domains during and after the completion of e.g. research projects. In subdomains of the Earth System Sciences (ESS), like atmospheric sciences or partly geosciences, data reuse across institutions and geographical borders was already well-established, supported by community-specific and cross-domain standards like netCDF-CF, geospatial standards (e.g.OGC). Further, authoritative data producers such as CMIPs were already using Persistent Identifiers and corresponding handle systems for data published in their repositories – so it was often thought and communicated this data is “FAIR by design”.
 
 However, fully implementing FAIR principles, particularly machine-actionability—the core idea behind FAIR—has proven challenging. Despite progress in awareness, standard-compliant data sharing, and the automation of data provenance, the ESS community continues to struggle to reach a community-wide consensus on the design, adoption, interpretation and implementation of the FAIR principles.
