@@ -39,14 +39,6 @@ export const Libraries = [
     logo: '/crossdomain_libraries/hvplot-logo_horizontal.svg',
   },
   {
-    name: 'VirtualiZarr',
-    description:
-      'Create virtual Zarr stores from archival data files using xarray syntax.',
-    url: 'https://virtualizarr.readthedocs.io/',
-    repo: 'https://github.com/zarr-developers/VirtualiZarr',
-    logo: '/crossdomain_libraries/VirtualiZarr_MaxJones_Alt3.svg',
-  },
-  {
     name: 'Kerchunk',
     description:
       'Cloud-friendly access to archival data.',
@@ -69,6 +61,14 @@ export const Libraries = [
     url: 'https://xbatcher.readthedocs.io/',
     repo: 'https://github.com/xarray-contrib/xbatcher',
     logo: '/crossdomain_libraries/xbatcher_logo.svg',
+  },
+  {
+    name: 'VirtualiZarr',
+    description:
+      'Create virtual Zarr stores from archival data files using xarray syntax.',
+    url: 'https://virtualizarr.readthedocs.io/',
+    repo: 'https://github.com/zarr-developers/VirtualiZarr',
+    logo: '',
   },
   {
     name: 'XPublish',
