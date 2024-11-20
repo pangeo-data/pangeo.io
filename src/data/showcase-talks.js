@@ -156,7 +156,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Arkouda as an XArray backend for HPC',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-arkouda-as-an-xarray-backend-for-hpc/4693',
     date: '2024-11-20T16:00-05:00',
     time: '4PM EST',
     doi: '',
