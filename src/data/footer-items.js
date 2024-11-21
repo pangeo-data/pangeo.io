@@ -29,6 +29,10 @@ export const footerItems = {
 
   community: [
     {
+      label: 'Join us!',
+      href: '/participating',
+    },
+    {
       label: 'Discourse',
       href: 'https://discourse.pangeo.io/',
     },
