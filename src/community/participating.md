@@ -44,8 +44,8 @@ We host showcase talks each spring and fall. Here are the steps to organizing th
   - End the recording and moderate questions
   - Switch to the 60 second updates
 - After the talk
-  - Trim the video using handbrake
-  - Create a framegrab for YouTube using ffmpeg
+  - Trim the video (handbrake is an open source tool for this)
+  - Create a framegrab for YouTube (ffmpeg is an open source tool for this)
   - Upload the video to the Pangeo YouTube channel
     - Expand options in order to choose creative commons rather than the default YouTube license
   - Ask the speaker for their slides
