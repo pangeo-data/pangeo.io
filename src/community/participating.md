@@ -32,13 +32,13 @@ We host showcase talks each spring and fall. Here are the steps to organizing th
   - Update the Pangeo showcase page with the link to the Discourse post
     - Submit a pull request that changes [https://github.com/pangeo-data/pangeo.io/blob/main/src/data/showcase-talks.js](https://github.com/pangeo-data/pangeo.io/blob/main/src/data/showcase-talks.js).
 - 1 day before the talk
-  - Announce the talk on the Pangeo Twitter account
+  - Announce the talk on the Pangeo X account
   - Add the talk to the [weekly Pangeo check-in notes](https://docs.google.com/document/d/1BkL0arf1Lz6fHgVBEJNxKbFmVN8glNQXmDKdsuT0GcU/edit?tab=t.0#heading=h.3ic01bys7ty2) using the template at the end of the doc
 - Day of the talk
   - Join the meeting using a NumFOCUS zoom account at least 5 minutes early
   - Explain that we usually start a few minutes after the hour
   - Ask people to sign in to the [weekly Pangeo check-in notes](https://docs.google.com/document/d/1BkL0arf1Lz6fHgVBEJNxKbFmVN8glNQXmDKdsuT0GcU/edit?tab=t.0#heading=h.3ic01bys7ty2)
-  - Ask the presented to share their screen before the recording starts
+  - Ask the presenter to share their screen before the recording starts
   - Start the recording
   - Watch the talk
   - End the recording and moderate questions
@@ -47,12 +47,12 @@ We host showcase talks each spring and fall. Here are the steps to organizing th
   - Trim the video using handbrake
   - Create a framegrab for YouTube using ffmpeg
   - Upload the video to the Pangeo YouTube channel
-    - Expand options in order to chose creative commons rather than the default YouTube license
+    - Expand options in order to choose creative commons rather than the default YouTube license
   - Ask the speaker for their slides
   - Upload the video and slides to the Pangeo Zenodo community
   - Add a link to the YouTube video and slides on the original discourse post
-- After the fall semester
-  - Make a archival copy of the weekly check-in notes
+- After the fall quarter
+  - Make an archival copy of the weekly check-in notes
 
 Potential gotcha's
 
