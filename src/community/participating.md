@@ -2,9 +2,9 @@
 
 You are invited to join the Pangeo community!
 
-- [Join the discourse](https://discourse.pangeo.io/)
+- Join the [discourse](https://discourse.pangeo.io/)
 - Join a [community meeting](https://www.pangeo.io/meetings)
-- Come to the [showcase talks](https://www.pangeo.io/meetings)
+- Come to the [showcase talks](https://www.pangeo.io/showcase)
 - Contribute to a [working group](https://www.pangeo.io/meetings)
 - Attend an [event](https://www.pangeo.io/meetings)
 - Talk with developers in the [Pangeo ecosystem](https://www.pangeo.io/#ecosystem) through GitHub
