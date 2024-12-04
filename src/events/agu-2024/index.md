@@ -79,11 +79,11 @@ We’ll work on VirtualiZarr as a tool for creating cloud-optimized virtual data
 
 Topic ideas:
 
-- Sharing Virtualization workflows (xref https://github.com/zarr-developers/VirtualiZarr/issues/320 )
+- Sharing Virtualization workflows (xref [https://github.com/zarr-developers/VirtualiZarr/issues/320](https://github.com/zarr-developers/VirtualiZarr/issues/320))
 - Writing virtual references to Icechunk
-- Adding support for new filetypes (xref https://github.com/zarr-developers/VirtualiZarr/issues/218 )
-- Support for groups (xref https://github.com/zarr-developers/VirtualiZarr/issues/84 )
-  Zarr-Python v3 integration (xref https://github.com/zarr-developers/VirtualiZarr/issues/17 )
+- Adding support for new filetypes (xref [https://github.com/zarr-developers/VirtualiZarr/issues/218](https://github.com/zarr-developers/VirtualiZarr/issues/218))
+- Support for groups (xref [https://github.com/zarr-developers/VirtualiZarr/issues/84](https://github.com/zarr-developers/VirtualiZarr/issues/84))
+  Zarr-Python v3 integration (xref [https://github.com/zarr-developers/VirtualiZarr/issues/17](https://github.com/zarr-developers/VirtualiZarr/issues/17))
 - Documentation
   New users welcome!
 
