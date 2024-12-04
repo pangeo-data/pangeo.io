@@ -11,7 +11,7 @@ import {
   Text,
 } from '@chakra-ui/react'
 
-import { CoreLibraries } from '@/components/core-libraries'
+import { CoreLibraries } from '@/components/crossdomain-libraries'
 import { Heading, Link } from '@/components/mdx'
 import { GeoscientificLibraries } from '@/components/geoscience-libraries'
 

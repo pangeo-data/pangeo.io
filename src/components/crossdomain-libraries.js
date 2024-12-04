@@ -3,7 +3,7 @@ import React from 'react'
 import { IoIosGlobe, IoLogoGithub } from 'react-icons/io'
 
 import { Image } from '@/components/mdx'
-import { Libraries as data } from '@/data/core-libraries'
+import { Libraries as data } from '@/data/crossdomain-libraries'
 
 import { SocialLink } from '@/components/social-link'
 
