@@ -103,8 +103,8 @@ Let's make the integration between xarray and GPU libraries (e.g. CuPy, Pytorch,
 
 Topic ideas:
 
-- See how [cupy-xarray](https://github.com/xarray-contrib/cupy-xarray) might work with NVIDIA DALI pipelines - https://github.com/xarray-contrib/cupy-xarray/issues/54
-- Work on [xbatcher](https://github.com/xarray-contrib/xbatcher/issues) to handle sampling/shuffling operations more efficiently - https://github.com/xarray-contrib/xbatcher/discussions/78
+- See how [cupy-xarray](https://github.com/xarray-contrib/cupy-xarray) might work with NVIDIA DALI pipelines - [https://github.com/xarray-contrib/cupy-xarray/issues/54](https://github.com/xarray-contrib/cupy-xarray/issues/54)
+- Work on [xbatcher](https://github.com/xarray-contrib/xbatcher/issues) to handle sampling/shuffling operations more efficiently - [https://github.com/xarray-contrib/xbatcher/discussions/78](https://github.com/xarray-contrib/xbatcher/discussions/78)
 - Create a new [Project Pythia](https://github.com/ProjectPythia) cookbook on ML topics related to weather/climate science or energy resiliency
 
 #### Pre-requisites
