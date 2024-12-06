@@ -95,9 +95,21 @@ Users just need a dataset they want to virtualize, developers ideally should hav
 
 A definite breakout group, stay tuned!
 
-### Machine Learning
+### Machine Learning (leader: Wei Ji Leong)
 
-Likely breakout group, stay tuned!
+#### Description
+
+Let's make the integration between xarray and GPU libraries (e.g. CuPy, Pytorch, JaX) more seamless! 
+
+Topic ideas:
+
+- See how [cupy-xarray](https://github.com/xarray-contrib/cupy-xarray) might work with NVIDIA DALI pipelines - https://github.com/xarray-contrib/cupy-xarray/issues/54
+- Work on [xbatcher](https://github.com/xarray-contrib/xbatcher/issues) to handle sampling/shuffling operations more efficiently - https://github.com/xarray-contrib/xbatcher/discussions/78
+- Create a new [Project Pythia](https://github.com/ProjectPythia) cookbook on ML topics related to weather/climate science or energy resiliency
+
+#### Pre-requisites
+
+We'll be working with GPU libraries, so it might be helpful if you have access to a GPU (on your laptop or a cloud/HPC server) to run things.
 
 ## Accessibility
 
