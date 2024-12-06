@@ -110,6 +110,7 @@ Topic ideas:
 #### Pre-requisites
 
 We'll be working with GPU libraries, so it might be helpful if you have access to a GPU (on your laptop or a cloud/HPC server) to run things.
+If not, feel free to join still and we can work out something together (e.g. pair programming) as a group.
 
 ## Accessibility
 
