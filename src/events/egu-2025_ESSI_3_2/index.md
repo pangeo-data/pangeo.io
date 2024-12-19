@@ -10,7 +10,7 @@ description: 'One decade of FAIR Principles: Data Reusability and Impact in Eart
 - **Pangeo session - ESSI 3.2** [https://meetingorganizer.copernicus.org/EGU25/session/52068](https://meetingorganizer.copernicus.org/EGU25/session/52068)
 - **Convener**: [Barbara Magagna](https://orcid.org/0000-0003-2195-3997)
 - **Co-conveners**:  [Ivonne Anders](https://orcid.org/0000-0001-7337-3009), [Karsten Peters-von Gehlen](https://orcid.org/0000-0003-0158-2957), [Anne Fouilloux](https://discourse.pangeo.io/u/annefou), [Jie Dodo Xu](https://orcid.org/0000-0001-8239-2076)
-- **When**: Sunday, April 27, 2025 (TBA)
+- **When**: April 27 - May 2, 2025 (Specific date TBA)
 - **Time**: TBA
 
 ## About
