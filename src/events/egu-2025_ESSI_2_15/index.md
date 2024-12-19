@@ -10,7 +10,7 @@ description: 'Geoscience using a Community Driven Approach.'
 - **Pangeo Session - ESSI2.15** [https://meetingorganizer.copernicus.org/EGU25/session/52079](https://meetingorganizer.copernicus.org/EGU25/session/52079)
 - **Convener**:  [Tina Odaka](https://discourse.pangeo.io/u/tinaok)
 - **Co-conveners**: [Anne Fouilloux](https://discourse.pangeo.io/u/annefou), [Alejandro Coca-Castro](https://discourse.pangeo.io/u/acocac), [Dean Summers](https://www.lampata.eu/), [Ross A. W. Slater](https://discourse.pangeo.io/u/raws)
-- **When**: Sunday, April 27, 2025 (TBA)
+- **When**: April 27 - May 2, 2025 (Specific date TBA)
 - **Time**: TBA
 
 **Goals**:
