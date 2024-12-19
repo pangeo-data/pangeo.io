@@ -6,7 +6,9 @@ location: 'Vienna, Austria'
 description: 'Harnessing the Power of Pangeo: Enhancing Your Scientific Data Analysis Workflow with scalable open source tools.'
 ---
 ## Overview
-- **Pangeo short course - SC 4.14** [https://meetingorganizer.copernicus.org/EGU25/session/53638](https://meetingorganizer.copernicus.org/EGU25/session/53638)
+- **Short course title** - Harnessing the Power of Pangeo: Enhancing Your Scientific Data Analysis Workflow with scalable open source tools
+- **Short course number** - SC 4.14
+- **EGU25 short course page** - [https://meetingorganizer.copernicus.org/EGU25/session/53638](https://meetingorganizer.copernicus.org/EGU25/session/53638)
 - **Convener**: [Anne Fouilloux](https://discourse.pangeo.io/u/annefou)
 - **Co-conveners**:  [Tina Odaka](https://discourse.pangeo.io/u/tinaok), [Scott Henderson](https://discourse.pangeo.io/u/scottyhq), [Max Jones](https://discourse.pangeo.io/u/maxrjones), [Justus Magin](https://discourse.pangeo.io/u/keewis)
 - **When**: Sunday, April 27, 2025 (TBA)
