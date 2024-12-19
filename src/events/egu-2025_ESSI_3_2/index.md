@@ -1,5 +1,5 @@
 ---
-name: 'Pangeo session: FAIR & reusability ESSI3.2'
+name: 'EGU25 Pangeo Session - FAIR Principles (ESSI2.15)'
 starttime: '2025-04-27T09:00+01:00'
 endtime: '2025-05-02T17:00+01:00'
 location: 'Vienna, Austria'
