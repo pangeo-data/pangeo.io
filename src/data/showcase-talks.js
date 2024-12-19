@@ -1,5 +1,22 @@
 export const ShowcaseTalks = [
   {
+    title: 'Xpublish at Scale(s)',
+    url: '',
+    date: '2025-01-29T16:00-05:00',
+    time: '4PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Alex Kerney',
+        github: 'abkfenris',
+      },
+      {
+        name: 'Joe Hamman',
+        github: 'jhamman',
+      },
+    ],
+  },
+  {
     title:
       'Geospatial reprojection in Python 2024 - what’s available and what’s next',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-geospatial-reprojection-in-python-2024-whats-available-and-whats-next/4531/14',
@@ -169,7 +186,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'xdggs: discrete global grid systems with xarray',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-xdggs-using-discrete-global-grid-systems-with-xarray/4728',
     date: '2024-12-04T16:00-05:00',
     time: '4PM EST',
     doi: '',
