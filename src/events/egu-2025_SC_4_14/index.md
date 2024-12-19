@@ -1,5 +1,5 @@
 ---
-name: 'Pangeo short course - SC 4.14'
+name: 'EGU25 Pangeo Short Course (SC 4.14)'
 starttime: '2025-04-27T09:00+01:00'
 endtime: '2025-05-02T17:00+01:00'
 location: 'Vienna, Austria'
