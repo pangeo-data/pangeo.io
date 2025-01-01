@@ -21,7 +21,7 @@
     "@chakra-ui/system": "^2.6.2",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@fontsource-variable/inter": "^5.1.0",
+    "@fontsource-variable/inter": "^5.1.1",
     "@giscus/react": "^3.0.0",
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
