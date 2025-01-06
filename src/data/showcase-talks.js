@@ -1,5 +1,31 @@
 export const ShowcaseTalks = [
   {
+    title: 'Dask Array: Scaling Up for Terabyte-Level Performance',
+    url: '',
+    date: '2025-04-02T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Patrick Höfler',
+        github: 'phofl',
+      },
+    ],
+  },
+  {
+    title: 'High-performance Python STAC tooling, backed by Rust',
+    url: '',
+    date: '2025-02-05T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Pete Gadomski',
+        github: 'gadomski',
+      },
+    ],
+  },
+  {
     title: 'Xpublish at Scale(s)',
     url: '',
     date: '2025-01-29T16:00-05:00',
