@@ -13,7 +13,7 @@ export const CommunityMeetings = [
     name: 'Pangeo Community Meeting (Europe & Africa TZs)',
     description:
       'An informal meeting with open discussions. Anyone may attend!',
-    schedule: 'Every week on Tuesday at 9:30am CET',
+    schedule: 'Every week on Tuesday at 16:00 CET',
     conferencing:
       'https://numfocus-org.zoom.us/j/81977735338?pwd=pVM3UvnSAJORc2p4Oad39TESPvBzV5.1',
     notes:
