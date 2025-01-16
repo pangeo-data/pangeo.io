@@ -13,6 +13,19 @@ export const ShowcaseTalks = [
     ],
   },
   {
+    title: 'Zarr-Python 3 is here!',
+    url: '',
+    date: '2025-03-05T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Joe Hamman',
+        github: 'jhamman',
+      },
+    ],
+  },
+  {
     title: 'High-performance Python STAC tooling, backed by Rust',
     url: '',
     date: '2025-02-05T12:00-05:00',
