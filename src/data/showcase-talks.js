@@ -13,6 +13,19 @@ export const ShowcaseTalks = [
     ],
   },
   {
+    title: 'Building Scalable Mosaics with GDAL, Xarray, and Flyte',
+    url: '',
+    date: '2025-03-12T16:00-05:00',
+    time: '4PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Leonard Strand',
+        github: 'ljstrnadiii',
+      },
+    ],
+  },
+  {
     title: 'Zarr-Python 3 is here!',
     url: '',
     date: '2025-03-05T12:00-05:00',
@@ -40,7 +53,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Xpublish at Scale(s)',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-xpublish-at-scale-s/4825',
     date: '2025-01-29T16:00-05:00',
     time: '4PM EST',
     doi: '',
@@ -58,7 +71,7 @@ export const ShowcaseTalks = [
   {
     title:
       'Geospatial reprojection in Python 2024 - what’s available and what’s next',
-    url: 'https://discourse.pangeo.io/t/pangeo-showcase-geospatial-reprojection-in-python-2024-whats-available-and-whats-next/4531/14',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-geospatial-reprojection-in-python-2024-whats-available-and-whats-next/4531',
     date: '2024-09-25T16:00-04:00',
     time: '4PM EDT',
     doi: '',
