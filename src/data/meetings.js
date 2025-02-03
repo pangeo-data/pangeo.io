@@ -46,7 +46,7 @@ export const WorkingGroups = [
       'Open working group to explore alternative parallel computing frameworks.',
     schedule: 'Every Other Monday at 1pm ET',
     conferencing:
-      'https://columbiauniversity.zoom.us/j/99521529645?pwd=YzhIbDlhZUE1dUNvR2R4SzV5VVBhQT09',
+      'https://numfocus-org.zoom.us/j/83352967369?pwd=AidxVNb0Rlc6EjnWqG7MinrAZsUgQI.1',
     notes:
       'https://discourse.pangeo.io/t/new-working-group-for-distributed-array-computing/2734',
   },
