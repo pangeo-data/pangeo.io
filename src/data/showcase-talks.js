@@ -39,6 +39,19 @@ export const ShowcaseTalks = [
     ],
   },
   {
+    title: 'FROST: Federated Registry Of Scientific Things',
+    url: '',
+    date: '2025-02-12T12:00-05:00',
+    time: '4PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Tom Nicholas',
+        github: 'tomnicholas',
+      },
+    ],
+  },
+  {
     title: 'High-performance Python STAC tooling, backed by Rust',
     url: '',
     date: '2025-02-05T12:00-05:00',
