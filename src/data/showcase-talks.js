@@ -40,7 +40,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'FROST: Federated Registry Of Scientific Things',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-frost-federated-registry-of-scientific-things-feb-12-2025/4861',
     date: '2025-02-12T12:00-05:00',
     time: '4PM EST',
     doi: '',
