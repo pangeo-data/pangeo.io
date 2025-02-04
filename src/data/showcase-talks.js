@@ -53,7 +53,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'High-performance Python STAC tooling, backed by Rust',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-high-performance-python-stac-tooling-backed-by-rust/4847',
     date: '2025-02-05T12:00-05:00',
     time: '12PM EST',
     doi: '',
