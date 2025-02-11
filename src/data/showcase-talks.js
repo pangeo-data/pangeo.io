@@ -13,6 +13,20 @@ export const ShowcaseTalks = [
     ],
   },
   {
+    title:
+      'Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS',
+    url: '',
+    date: '2025-03-19T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Martin Renou',
+        github: 'martinRenou',
+      },
+    ],
+  },
+  {
     title: 'Building Scalable Mosaics with GDAL, Xarray, and Flyte',
     url: '',
     date: '2025-03-12T16:00-05:00',
