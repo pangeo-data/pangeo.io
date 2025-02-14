@@ -24,6 +24,10 @@ export const ShowcaseTalks = [
         name: 'Martin Renou',
         github: 'martinRenou',
       },
+      {
+        name: 'Matt Fisher',
+        github: 'mfisher87',
+      },
     ],
   },
   {
