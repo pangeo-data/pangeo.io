@@ -69,6 +69,16 @@ export const WorkingGroups = [
     notes:
       'https://paper.dropbox.com/doc/Meeting-notes-Machine-Learning-WG--AmU~wZXwdbpTZi8rQsJQH9_sAg-9UUgyywF9jmIMXXbmZTyJ',
   },
+  {
+    name: 'VirtualiZarr Coordination Meeting',
+    description:
+      'Open working group focusing on development of VirtualiZarr.',
+    schedule: 'Bi-Weekly, 2nd and 4th Fridays at 2p ET',
+    conferencing:
+      'https://numfocus-org.zoom.us/j/88307540201?pwd=Sn2uY0i3wRCqFaZ5oNbJRQrcg1FEyw.1',
+    notes:
+      'https://docs.google.com/document/d/18P_Uk2aL1hfcaJf4PJfYZJzmhvMSJjdmB_AJvjiZOVM/edit?tab=t.0#heading=h.ucu4t39djick',
+  },
 ]
 
 export const PastWorkingGroups = [
