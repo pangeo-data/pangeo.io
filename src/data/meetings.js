@@ -73,7 +73,7 @@ export const WorkingGroups = [
     name: 'VirtualiZarr Coordination Meeting',
     description:
       'Open working group focusing on development of VirtualiZarr.',
-    schedule: 'Bi-Weekly, 2nd and 4th Fridays at 2p ET',
+    schedule: 'Bi-Weekly, 2nd and 4th Fridays at 2pm ET',
     conferencing:
       'https://numfocus-org.zoom.us/j/88307540201?pwd=Sn2uY0i3wRCqFaZ5oNbJRQrcg1FEyw.1',
     notes:
