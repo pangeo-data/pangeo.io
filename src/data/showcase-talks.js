@@ -32,7 +32,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Building Scalable Mosaics with GDAL, Xarray, and Flyte',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-building-scalable-mosaic-workflows-with-flyte-unionai-gdal-and-xarray-march-12-2025/4937',
     date: '2025-03-12T16:00-05:00',
     time: '4PM EST',
     doi: '',
@@ -45,7 +45,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Zarr-Python 3 is here!',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-zarr-python-3-and-beyond-march-05-2025/4918',
     date: '2025-03-05T12:00-05:00',
     time: '12PM EST',
     doi: '',
