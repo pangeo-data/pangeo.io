@@ -3,7 +3,7 @@ export const ShowcaseTalks = [
     title: 'Dask Array: Scaling Up for Terabyte-Level Performance',
     url: '',
     date: '2025-04-02T12:00-05:00',
-    time: '12PM EST',
+    time: '12PM EDT',
     doi: '',
     authors: [
       {
@@ -17,7 +17,7 @@ export const ShowcaseTalks = [
       'Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS',
     url: '',
     date: '2025-03-19T12:00-05:00',
-    time: '12PM EST',
+    time: '12PM EDT',
     doi: '',
     authors: [
       {
@@ -34,7 +34,7 @@ export const ShowcaseTalks = [
     title: 'Building Scalable Mosaics with GDAL, Xarray, and Flyte',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-building-scalable-mosaic-workflows-with-flyte-unionai-gdal-and-xarray-march-12-2025/4937',
     date: '2025-03-12T16:00-05:00',
-    time: '4PM EST',
+    time: '4PM EDT',
     doi: '',
     authors: [
       {
