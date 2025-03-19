@@ -15,7 +15,7 @@ export const ShowcaseTalks = [
   {
     title:
       'Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-march-19-2025/4984',
     date: '2025-03-19T12:00-05:00',
     time: '12PM EDT',
     doi: '',
