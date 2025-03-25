@@ -10,13 +10,11 @@ import {
   VStack,
 } from '@chakra-ui/react'
 
-import { getRootURL } from '@/lib/seo-utils'
-
 import { GitSHA } from '@/components/git-sha'
 import { Image, Link } from '@/components/mdx'
-import { VercelCallout } from '@/components/vercel'
 import { footerItems } from '@/data/footer-items'
-import { FaGithub, FaRss, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { NetlifyCallout } from '@/components/netlify'
 
 const SocialButton = ({ children, label, href }) => {
   return (
@@ -147,8 +145,8 @@ export const Footer = () => {
             })}
           </Stack>
         </SimpleGrid>
-        <VStack as='footer' spacing={4} mt={12} textAlign='center'>
-          <VercelCallout />
+        <VStack as='footer'>
+          <NetlifyCallout />
         </VStack>
       </Container>
     </Box>
