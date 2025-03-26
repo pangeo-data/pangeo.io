@@ -7,8 +7,8 @@ export const ShowcaseTalks = [
     doi: '',
     authors: [
       {
-        name: 'Patrick Höfler',
-        github: 'phofl',
+        name: 'Hendrik Makait',
+        github: 'hendrikmakait',
       },
     ],
   },
