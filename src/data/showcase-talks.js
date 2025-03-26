@@ -2,7 +2,7 @@ export const ShowcaseTalks = [
   {
     title: 'Dask Array: Scaling Up for Terabyte-Level Performance',
     url: '',
-    date: '2025-04-02T12:00-05:00',
+    date: '2025-04-09T12:00-05:00',
     time: '12PM EDT',
     doi: '',
     authors: [
