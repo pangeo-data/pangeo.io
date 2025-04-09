@@ -1,7 +1,7 @@
 export const ShowcaseTalks = [
   {
     title: 'Dask Array: Scaling Up for Terabyte-Level Performance',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-dask-array-scaling-up-for-terabyte-level-performance-april-9-2025-at-12-pm-et/5037',
     date: '2025-04-09T12:00-05:00',
     time: '12PM EDT',
     doi: '',
