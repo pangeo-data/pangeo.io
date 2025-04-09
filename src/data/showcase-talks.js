@@ -1,5 +1,18 @@
 export const ShowcaseTalks = [
   {
+    title: 'Pangeo lightning talks - sign up to present!',
+    url: 'https://forms.gle/JaZHtYUxaHRyeN6H7',
+    date: '2025-04-16T12:00-05:00',
+    time: '12PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: '',
+        github: '',
+      },
+    ],
+  },
+  {
     title: 'Dask Array: Scaling Up for Terabyte-Level Performance',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-dask-array-scaling-up-for-terabyte-level-performance-april-9-2025-at-12-pm-et/5037',
     date: '2025-04-09T12:00-05:00',
