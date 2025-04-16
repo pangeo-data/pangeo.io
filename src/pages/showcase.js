@@ -91,7 +91,7 @@ export default function Showcase({}) {
               textDecoration={'underline'}
               fontSize={'lg'}
             >
-              View the community calendar here.
+              View the community calendar.
             </Link>
           </Text>
 
@@ -103,8 +103,7 @@ export default function Showcase({}) {
               href='https://forms.gle/QwxKusVvrvDakSNs8'
             >
               {' '}
-              If you are interested in presenting, please fill out this short
-              form.
+              Sign up to present here!
             </Link>
             <Divider my={4} borderColor='gray.200' />
           </Container>
