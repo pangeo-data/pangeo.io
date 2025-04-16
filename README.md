@@ -1,7 +1,5 @@
 # Pangeo landing page
 
-![Vercel Deployment](https://img.shields.io/github/deployments/pangeo-data/pangeo.io/Production?label=vercel&logo=vercel&style=for-the-badge)
-
 Landing Page for Pangeo project.
 
 ## Overview
@@ -43,12 +41,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-<a href="https://vercel.com?utm_source=pangeo&utm_campaign=oss">
-<p align="center">
-  <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg">
-</p>
-</a>
 
 ## Acknowledgments
 
