@@ -1,7 +1,7 @@
 export const ShowcaseTalks = [
   {
-    title: 'Pangeo lightning talks - sign up to present!',
-    url: 'https://forms.gle/JaZHtYUxaHRyeN6H7',
+    title: 'Pangeo lightning talks!',
+    url: 'https://discourse.pangeo.io/t/spring-showcase-close-out-lightning-talks-april-16-2025-at-12-pm-et/5047',
     date: '2025-04-16T12:00-05:00',
     time: '12PM EDT',
     doi: '',
