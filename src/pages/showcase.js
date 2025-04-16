@@ -79,8 +79,22 @@ export default function Showcase({}) {
             textAlign={'center'}
           >
             Upcoming presentations about software tools, datasets, and
-            scientific workflows.
+            scientific workflows.{' '}
+            <Link
+              href={'/calendar'}
+              color={useColorModeValue('gray.600', 'gray.200')}
+              _hover={{
+                textDecoration: 'none',
+                // eslint-disable-next-line react-hooks/rules-of-hooks
+                color: useColorModeValue('gray.800', 'white'),
+              }}
+              textDecoration={'underline'}
+              fontSize={'lg'}
+            >
+              View the community calendar.
+            </Link>
           </Text>
+
           <Container centerContent>
             <Link
               style={{
@@ -89,8 +103,7 @@ export default function Showcase({}) {
               href='https://forms.gle/QwxKusVvrvDakSNs8'
             >
               {' '}
-              If you are interested in presenting, please fill out this short
-              form.
+              Sign up to present here!
             </Link>
             <Divider my={4} borderColor='gray.200' />
           </Container>
