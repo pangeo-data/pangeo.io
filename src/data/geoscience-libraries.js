@@ -12,7 +12,7 @@ export const Projects = [
     name: 'xgcm',
     description:
       'General Circulation Model Postprocessing with xarray.',
-    domains: ['🌊 Oceanography'],
+    domains: ['🌊 Oceanography', '🌐 Grids'],
     homepage: 'https://xgcm.readthedocs.io/',
     repo: 'https://github.com/xgcm/xgcm',
     logo: '/geoscience_libraries/xgcm-svglogo.svg',
@@ -79,6 +79,15 @@ export const Projects = [
     homepage: 'https://uxarray.readthedocs.io/',
     repo: 'https://github.com/UXARRAY/uxarray',
     logo: '/geoscience_libraries/uxarray_logo_h_dark.svg',
+  },
+  {
+    name: 'xDGGS',
+    description:
+      'Extension to handle Discrete Global Grid Systems.',
+    domains: ['🌐 Grids'],
+    homepage: 'https://xdggs.readthedocs.io/en/latest/',
+    repo: 'https://github.com/xarray-contrib/xdggs',
+    logo: '/geoscience_libraries/xdggs-logo.svg',
   },
 
 ]
