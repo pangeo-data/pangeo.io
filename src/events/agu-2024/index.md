@@ -4,6 +4,7 @@ starttime: '2024-12-14T09:00-05:00'
 endtime: '2024-12-14T16:30-05:00'
 location: 'Washington, DC, USA'
 description: 'Join the Pangeo community for a hack-day / working meeting after AGU 2024'
+show_pangeo_code_of_conduct: True
 ---
 
 ## Overview
@@ -99,7 +100,7 @@ A definite breakout group, stay tuned!
 
 #### Description
 
-Let's make the integration between xarray and GPU libraries (e.g. CuPy, Pytorch, JaX) more seamless! 
+Let's make the integration between xarray and GPU libraries (e.g. CuPy, Pytorch, JaX) more seamless!
 
 Topic ideas:
 

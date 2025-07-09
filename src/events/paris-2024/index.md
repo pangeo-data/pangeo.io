@@ -4,6 +4,7 @@ starttime: '2024-11-12T09:00+01:00'
 endtime: '2024-11-12T17:00+01:00'
 location: 'Paris, France'
 description: 'Meet the European Pangeo Community and discuss CNES use cases and collaboration'
+show_pangeo_code_of_conduct: True
 ---
 
 ## Overview
