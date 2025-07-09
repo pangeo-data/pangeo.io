@@ -51,21 +51,25 @@ export default function Event({ source, frontmatter, eventId }) {
               {...source}
               components={{ ...mapping, ...MDXElements }}
             />
-            <Heading as={'h3'} size='lg' my={4}>
-              Code of Conduct
-            </Heading>
-            <Text>
-              All participants must abide by the{' '}
-              <Link
-                style={{
-                  textDecoration: 'underline',
-                }}
-                href='https://github.com/pangeo-data/governance/blob/master/conduct/code_of_conduct.md'
-              >
-                Pangeo Code of Conduct
-              </Link>
-              .
-            </Text>
+            {frontmatter.show_pangeo_code_of_conduct && (
+              <>
+                <Heading as={'h3'} size='lg' my={4}>
+                  Code of Conduct
+                </Heading>
+                <Text>
+                  All participants must abide by the{' '}
+                  <Link
+                    style={{
+                      textDecoration: 'underline',
+                    }}
+                    href='https://github.com/pangeo-data/governance/blob/master/conduct/code_of_conduct.md'
+                  >
+                    Pangeo Code of Conduct
+                  </Link>
+                  .
+                </Text>
+              </>
+            )}
           </Box>
 
           <Button
