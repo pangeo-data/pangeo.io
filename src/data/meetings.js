@@ -13,11 +13,11 @@ export const CommunityMeetings = [
     name: 'Pangeo Community Meeting (Europe & Africa TZs)',
     description:
       'An informal meeting with open discussions. Anyone may attend!',
-    schedule: 'Every week on Tuesday at 16:00 CET',
+    schedule: 'Every Tuesday, alternating between 9am CET and 4pm CET',
     conferencing:
       'https://numfocus-org.zoom.us/j/81977735338?pwd=pVM3UvnSAJORc2p4Oad39TESPvBzV5.1',
     notes:
-      'https://docs.google.com/document/d/1Vq1ljPRQYWF_u0Ku1eEhQyYreijAJ2QW6FELdIsiYDs/edit?usp=sharing',
+      'https://docs.google.com/document/d/e/2PACX-1vS4pYSPFaRz31QQrHeTy4IwzbHIu3w5vLvcMybem7FEtPfmGff_Vg38CbJQcv0fFfZVJciaEH3j1YHc/pub',
   },
   {
     name: 'Pangeo Community Meeting (Oceania TZs)',
