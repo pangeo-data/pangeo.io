@@ -24,7 +24,7 @@ Science data systems are vital for scientific discovery across a range of discip
 [**Abstract submission link**](https://agu.confex.com/agu/agu25/in/papers/index.cgi?sessionid=252486)<br />
 Session ID: 252486<br />
 Section: Informatics<br />
-Conveners: Quisheng Wu, Chelle Gentemann, Max Jones, Tyler Erickson, Wilson Sauthoff<br />
+Conveners: Qiusheng Wu, Chelle Gentemann, Max Jones, Tyler Erickson, Wilson Sauthoff<br />
 
 Open and fluid interoperability is increasingly crucial as geospatial data, from Earth system models to in-situ and remote observations, grow in size and complexity. This interoperability is both more challenging and impactful when workflows combine local and cloud platform resources. A growing ecosystem of science, education, and industry is emerging that shares open source tools and standards to democratize and facilitate access to data and compute. This session invites practitioners and developers exploring approaches to improve accessibility, usability, and capabilities of open source geospatial software, focusing on lowering technical barriers. By acknowledging both strengths and limitations of available tools, we aim to facilitate open conversations about what's working, what's missing, and what's next. We seek to convene tool builders and users to chart a more inclusive, community-driven path forward for open geospatial science, fostering better understanding of our world through enhanced access to data and computational resources.
 
