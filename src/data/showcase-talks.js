@@ -1,6 +1,95 @@
 export const ShowcaseTalks = [
   {
     title: 'Pangeo lightning talks!',
+    url: '',
+    date: '2025-12-10T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: '',
+        github: '',
+      },
+    ],
+  },
+  {
+    title: 'To be added - stay tuned!',
+    url: '',
+    date: '2025-12-03T16:00-05:00',
+    time: '4PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Justus Magin',
+        github: 'keewis',
+      },
+    ],
+  },
+  {
+    title:
+      'Ensemble Weather Forecast Data Streaming with Kerchunk / VirtualiZarr',
+    url: '',
+    date: '2025-11-12T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Nishadh Kalladath',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Unlocking scalable and accessible open science on the cloud with Zarr',
+    url: '',
+    date: '2025-11-05T16:00-05:00',
+    time: '4PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Max Jones',
+        github: 'maxrjones',
+      },
+      {
+        name: 'Joe Hamman',
+        github: 'jhamman',
+      },
+      {
+        name: 'Davis Bennett',
+        github: 'd-v-b',
+      },
+    ],
+  },
+  {
+    title:
+      'Tensors and back again: Xbatcher for filtering, resampling, and assembling deep learning model output',
+    url: '',
+    date: '2025-10-08T16:00-04:00',
+    time: '4PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Keenan Ganz',
+        github: 's-kganz',
+      },
+    ],
+  },
+  {
+    title: "Let's Solve the Problem of Object Storage",
+    url: '',
+    date: '2025-10-01T12:00-04:00',
+    time: '12PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Jarrett Keifer',
+        github: 'jkeifer',
+      },
+    ],
+  },
+  {
+    title: 'Pangeo lightning talks!',
     url: 'https://discourse.pangeo.io/t/spring-showcase-close-out-lightning-talks-april-16-2025-at-12-pm-et/5047',
     date: '2025-04-16T12:00-05:00',
     time: '12PM EDT',
