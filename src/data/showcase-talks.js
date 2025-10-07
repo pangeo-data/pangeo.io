@@ -64,7 +64,7 @@ export const ShowcaseTalks = [
   {
     title:
       'Tensors and back again: Xbatcher for filtering, resampling, and assembling deep learning model output',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-tensors-and-back-again-xbatcher-for-filtering-resampling-and-assembling-deep-learning-model-output-october-8-2025-at-4-pm-et/5422',
     date: '2025-10-08T16:00-04:00',
     time: '4PM EDT',
     doi: '',
@@ -77,7 +77,7 @@ export const ShowcaseTalks = [
   },
   {
     title: "Let's Solve the Problem of Object Storage",
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-lets-solve-the-problem-of-object-storage-october-1-2025-at-12-pm-et/5417',
     date: '2025-10-01T12:00-04:00',
     time: '12PM EDT',
     doi: '',
