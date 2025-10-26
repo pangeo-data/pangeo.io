@@ -24,7 +24,7 @@ export const Ecosystem = () => {
         </Heading>
         <Text fontSize={'lg'}>
           The Pangeo community is actively engaged in developing geoscientific
-          software and plaftorms. Many of these tools are useful far beyond the
+          software and platforms. Many of these tools are useful far beyond the
           geoscientific domain.
         </Text>
 
