@@ -9,7 +9,7 @@ export default function IndexPage() {
       card={
         'https://raw.githubusercontent.com/pangeo-data/pangeo-tutorial/blob/agu2019/images/pangeo_simple_logo.png'
       }
-      enableBanner
+      false
     >
       <HeroBanner />
       <Features />
