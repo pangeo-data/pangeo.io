@@ -19,16 +19,12 @@ export const ShowcaseTalks = [
     time: '4PM EST',
     doi: '',
     authors: [
-      {
-        name: 'Justus Magin',
-        github: 'keewis',
-      },
     ],
   },
   {
     title:
       'Ensemble Weather Forecast Data Streaming with Kerchunk / VirtualiZarr',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-ensemble-weather-forecast-data-streaming-with-kerchunk-virtualizarr-november-12-2025-at-12-pm-et/5442',
     date: '2025-11-12T12:00-05:00',
     time: '12PM EST',
     doi: '',
@@ -42,7 +38,7 @@ export const ShowcaseTalks = [
   {
     title:
       'Unlocking scalable and accessible open science on the cloud with Zarr',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-zarr-summit-review-unlocking-scalable-and-accessible-open-science-on-the-cloud-november-5-2025-at-4-pm-et/5435',
     date: '2025-11-05T16:00-05:00',
     time: '4PM EST',
     doi: '',
