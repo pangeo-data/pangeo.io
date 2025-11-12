@@ -13,15 +13,6 @@ export const ShowcaseTalks = [
     ],
   },
   {
-    title: 'To be added - stay tuned!',
-    url: '',
-    date: '2025-12-03T16:00-05:00',
-    time: '4PM EST',
-    doi: '',
-    authors: [
-    ],
-  },
-  {
     title:
       'Ensemble Weather Forecast Data Streaming with Kerchunk / VirtualiZarr',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-ensemble-weather-forecast-data-streaming-with-kerchunk-virtualizarr-november-12-2025-at-12-pm-et/5442',
