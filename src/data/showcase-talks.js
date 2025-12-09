@@ -1,7 +1,7 @@
 export const ShowcaseTalks = [
   {
     title: 'Pangeo lightning talks!',
-    url: 'https://discourse.pangeo.io/t/pangeo-showcase-lightning-talks-december-10-2025-at-12-pm-et-sign-up-now/5447',
+    url: 'https://discourse.pangeo.io/t/fall-showcase-close-out-lightning-talks-december-10-2025-at-12-pm-et/5467',
     date: '2025-12-10T12:00-05:00',
     time: '12PM EST',
     doi: '',
