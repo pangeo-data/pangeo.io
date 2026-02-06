@@ -11,6 +11,6 @@ export const SteeringCouncilMembers = [
   { name: 'Thomas Moore', github: 'Thomas-Moore-Creative' },
   { name: 'James Munroe', github: 'jmunroe' },
   { name: 'Tina Odaka', github: 'tinaok' },
-  { name: 'Brianna Pagan', github: 'briannapagan' },
+  { name: 'Brianna Corremonte', github: 'brianna-corremonte' },
   { name: 'Rich Signell', github: 'rsignell-usgs' },
 ]
