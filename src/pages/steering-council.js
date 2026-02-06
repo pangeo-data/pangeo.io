@@ -10,7 +10,7 @@ const SteeringCouncil = () => {
       <Box as='section' py={20}>
         <Container maxW='container.lg'>
           <Heading as='h1' size='2xl' textAlign={'center'}>
-            SteeringCouncil
+            Pangeo Steering Council
           </Heading>
 
           <Box py={4}>
