@@ -4,6 +4,7 @@ import {
   Box,
   Container,
   Divider,
+  Flex,
   Heading,
   Spacer,
   Stack,
@@ -14,6 +15,7 @@ import {
 } from '@chakra-ui/react'
 
 import { motion } from 'framer-motion'
+import { LuCalendarPlus, LuCalendarSearch } from "react-icons/lu";
 
 import { Layout } from '@/components/layout'
 import { Link, Doi, ShowcaseTitle } from '@/components/mdx'
@@ -61,7 +63,7 @@ const SinglePresentation = ({ page }) => {
   )
 }
 
-export default function Showcase({}) {
+export default function Showcase({ }) {
   return (
     <Layout
       title={'Showcase | Pangeo'}
@@ -79,7 +81,11 @@ export default function Showcase({}) {
             textAlign={'center'}
           >
             Upcoming presentations about software tools, datasets, and
-            scientific workflows.{' '}
+            scientific workflows.
+          </Text>
+
+          <Flex gap="2" justify="center" align="center">
+            <LuCalendarSearch />
             <Link
               href={'/calendar'}
               color={useColorModeValue('gray.600', 'gray.200')}
@@ -91,22 +97,29 @@ export default function Showcase({}) {
               textDecoration={'underline'}
               fontSize={'lg'}
             >
-              View the community calendar.
+              View the community calendar
             </Link>
-          </Text>
+          </Flex>
 
-          <Container centerContent>
+          <Flex gap="2" justify="center" align="center">
+            <LuCalendarPlus />
             <Link
-              style={{
-                textDecoration: 'underline',
+              href='https://forms.gle/YvvZqAivcWADkxh88'
+              color={useColorModeValue('gray.600', 'gray.200')}
+              _hover={{
+                textDecoration: 'none',
+                // eslint-disable-next-line react-hooks/rules-of-hooks
+                color: useColorModeValue('gray.800', 'white'),
               }}
-              href='https://forms.gle/QwxKusVvrvDakSNs8'
+              textDecoration={'underline'}
+              fontSize={'lg'}
             >
-              {' '}
-              Sign up to present here!
+              Sign up to give a presentation!
             </Link>
-            <Divider my={4} borderColor='gray.200' />
-          </Container>
+          </Flex>
+
+          <Divider my={4} borderColor='gray.200' />
+
           <VStack
             divider={<StackDivider borderColor='gray.200' />}
             spacing={-4}
@@ -123,6 +136,7 @@ export default function Showcase({}) {
           <Divider my={2} borderColor='gray.200' />
         </Container>
       </Box>
+
       <Box as='section'>
         <Container maxW='container.lg' py={20}>
           <Heading as='h1' size='2xl' textAlign={'center'} my={4}>
