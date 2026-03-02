@@ -32,7 +32,7 @@ We host showcase talks each spring and fall. Here are the steps to organizing th
   - Update the Pangeo showcase page with the link to the Discourse post
     - Submit a pull request that changes [https://github.com/pangeo-data/pangeo.io/blob/main/src/data/showcase-talks.js](https://github.com/pangeo-data/pangeo.io/blob/main/src/data/showcase-talks.js).
 - 1 day before the talk
-  - Announce the talk on the Pangeo X account
+  - Announce the talk on the Pangeo BlueSky account
   - Add the talk to the [weekly Pangeo check-in notes](https://docs.google.com/document/d/1BkL0arf1Lz6fHgVBEJNxKbFmVN8glNQXmDKdsuT0GcU/edit?tab=t.0#heading=h.3ic01bys7ty2) using the template at the end of the doc
 - Day of the talk
   - Join the meeting using a NumFOCUS zoom account at least 5 minutes early
