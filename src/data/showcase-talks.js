@@ -1,6 +1,80 @@
 export const ShowcaseTalks = [
   {
     title: 'Pangeo lightning talks!',
+    url: '',
+    date: '2026-05-13T12:00-04:00',
+    time: '12PM EDT',
+    doi: '',
+    authors: [],
+  },
+  {
+    title:
+      'Cloud-native hydroacoustic data processing from echosounder to the cloud',
+    url: '',
+    date: '2026-05-06T16:00-04:00',
+    time: '4PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Andrei Rusu',
+        github: 'beatfactor',
+      },
+    ],
+  },
+  {
+    title: 'GitHub as a cloud portal for reproducible research workflows',
+    url: '',
+    date: '2026-04-08T16:00-04:00',
+    time: '4PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Scott Henderson',
+        github: 'scottyhq',
+      },
+    ],
+  },
+  {
+    title: 'GPU-Accelerated Zarr',
+    url: '',
+    date: '2026-04-01T12:00-04:00',
+    time: '12PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Tom Augspurger',
+        github: 'TomAugspurger',
+      },
+    ],
+  },
+  {
+    title: 'Visualizing zarr with zarr-layer',
+    url: '',
+    date: '2026-03-11T16:00-04:00',
+    time: '4PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Shane Loeffler',
+        github: 'Shane98c',
+      },
+    ],
+  },
+  {
+    title: 'No shard feelings: GeoZarr rendering in QGIS, powered by GDAL',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-no-shard-feelings-geozarr-rendering-in-qgis-powered-by-gdal-march-4-2026-at-12-pm-et/5526',
+    date: '2026-03-04T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Wietze Suijker',
+        github: 'wietzesuijker',
+      },
+    ],
+  },
+  {
+    title: 'Pangeo lightning talks!',
     url: 'https://discourse.pangeo.io/t/fall-showcase-close-out-lightning-talks-december-10-2025-at-12-pm-et/5467',
     date: '2025-12-10T12:00-05:00',
     time: '12PM EST',
