@@ -49,7 +49,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'Visualizing zarr with zarr-layer',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-visualizing-zarr-with-zarr-layer/5531',
     date: '2026-03-11T16:00-04:00',
     time: '4PM EDT',
     doi: '',
