@@ -36,7 +36,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'GPU-Accelerated Zarr',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-gpu-accelerated-zarr-april-1-12-pm-us-eastern/5549',
     date: '2026-04-01T12:00-04:00',
     time: '12PM EDT',
     doi: '',
