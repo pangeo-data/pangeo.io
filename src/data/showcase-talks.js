@@ -23,7 +23,7 @@ export const ShowcaseTalks = [
   },
   {
     title: 'GitHub as a cloud portal for reproducible research workflows',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-github-as-a-cloud-portal-for-reproducible-research-workflows/5551',
     date: '2026-04-08T16:00-04:00',
     time: '4PM EDT',
     doi: '',
