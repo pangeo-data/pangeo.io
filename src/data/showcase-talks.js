@@ -8,20 +8,6 @@ export const ShowcaseTalks = [
     authors: [],
   },
   {
-    title:
-      'Cloud-native hydroacoustic data processing from echosounder to the cloud',
-    url: '',
-    date: '2026-05-06T16:00-04:00',
-    time: '4PM EDT',
-    doi: '',
-    authors: [
-      {
-        name: 'Andrei Rusu',
-        github: 'beatfactor',
-      },
-    ],
-  },
-  {
     title: 'GitHub as a cloud portal for reproducible research workflows',
     url: 'https://discourse.pangeo.io/t/pangeo-showcase-github-as-a-cloud-portal-for-reproducible-research-workflows/5551',
     date: '2026-04-08T16:00-04:00',
