@@ -1,7 +1,7 @@
 export const ShowcaseTalks = [
   {
     title: 'Pangeo lightning talks!',
-    url: '',
+    url: 'https://discourse.pangeo.io/t/spring-showcase-2026-close-out-lightning-talks-may-13-2026-at-12-pm-us-eastern/5587',
     date: '2026-05-13T12:00-04:00',
     time: '12PM EDT',
     doi: '',
