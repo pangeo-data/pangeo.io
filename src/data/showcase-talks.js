@@ -1,5 +1,33 @@
 export const ShowcaseTalks = [
   {
+    title:
+      'Earth2Studio: A Python Toolkit for AI Weather and Climate Workflows',
+    url: '',  // TODO: Discourse announcement URL
+    date: '2026-09-30T16:00-04:00',
+    time: '4PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Negin Sobhani',
+        github: 'negin513',
+      },
+    ],
+  },
+  {
+    title:
+      'insitubatch: Streaming ML Batches from Cloud Zarr Without Resharding',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-insitubatch-streaming-ml-batches-from-cloud-zarr-without-resharding-september-16-12-pm-edt-16-00-utc/5812',
+    date: '2026-09-16T12:00-04:00',
+    time: '12PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'David Stuebe',
+        github: 'emfdavid',
+      },
+    ],
+  },
+  {
     title: 'Pangeo lightning talks!',
     url: 'https://discourse.pangeo.io/t/spring-showcase-2026-close-out-lightning-talks-may-13-2026-at-12-pm-us-eastern/5587',
     date: '2026-05-13T12:00-04:00',
