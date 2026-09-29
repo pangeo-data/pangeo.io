@@ -1,8 +1,26 @@
 export const ShowcaseTalks = [
   {
     title:
-      'Earth2Studio: A Python Toolkit for AI Weather and Climate Workflows',
+      'Firecube: A plugin-based batch ingestion engine for creating operational analysis-ready data cubes',
     url: '',  // TODO: Discourse announcement URL
+    date: '2026-10-14T16:00-04:00',
+    time: '12PM EDT',
+    doi: '',
+    authors: [
+      {
+        name: 'Armagan Karatosun',
+        github: 'armagankaratosun',
+      },
+      {
+        name: 'Anna-Lena Erdmann',
+        github: 'annaerdmann',
+      },
+    ],
+  },
+  {
+    title:
+      'Earth2Studio: A Python Toolkit for AI Weather and Climate Workflows',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-earth2studio-a-python-toolkit-for-ai-weather-and-climate-workflows-september-30-12-pm-edt-16-00-utc/5825',
     date: '2026-09-30T16:00-04:00',
     time: '4PM EDT',
     doi: '',
