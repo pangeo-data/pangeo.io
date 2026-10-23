@@ -3,8 +3,8 @@ export const ShowcaseTalks = [
     title:
       'Pangeo lightning talks!',
     url: '',  // TODO: Discourse announcement URL
-    date: '2026-12-02T16:00-04:00',
-    time: '4PM EDT',
+    date: '2026-12-02T16:00-05:00',
+    time: '4PM EST',
     doi: '',
     authors: [
       {
@@ -16,9 +16,9 @@ export const ShowcaseTalks = [
   {
     title:
       'Building Analysis-Ready Antarctic Data Cubes with Pangeo',
-    url: '',  // TODO: Discourse announcement URL
-    date: '2026-11-11T12:00-04:00',
-    time: '12PM EDT',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-building-analysis-ready-antarctic-data-cubes-with-pangeo-november-11-12-pm-est-17-00-utc/5851',
+    date: '2026-11-11T12:00-05:00',
+    time: '12PM EST',
     doi: '',
     authors: [
       {
