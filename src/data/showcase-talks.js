@@ -1,9 +1,37 @@
 export const ShowcaseTalks = [
   {
     title:
-      'Firecube: A plugin-based batch ingestion engine for creating operational analysis-ready data cubes',
+      'Pangeo lightning talks!',
     url: '',  // TODO: Discourse announcement URL
-    date: '2026-10-14T16:00-04:00',
+    date: '2026-12-02T16:00-05:00',
+    time: '4PM EST',
+    doi: '',
+    authors: [
+      {
+        name: '',
+        github: '',
+      },
+    ],
+  },
+  {
+    title:
+      'Building Analysis-Ready Antarctic Data Cubes with Pangeo',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-building-analysis-ready-antarctic-data-cubes-with-pangeo-november-11-12-pm-est-17-00-utc/5851',
+    date: '2026-11-11T12:00-05:00',
+    time: '12PM EST',
+    doi: '',
+    authors: [
+      {
+        name: 'Dean Summers',
+        github: 'sunnydean',
+      },
+    ],
+  },
+  {
+    title:
+      'Firecube: A plugin-based batch ingestion engine for creating operational analysis-ready data cubes',
+    url: 'https://discourse.pangeo.io/t/pangeo-showcase-firecube-a-plugin-based-batch-ingestion-engine-for-creating-operational-analysis-ready-data-cubes-october-14-12-pm-edt-16-00-utc/5834',
+    date: '2026-10-14T12:00-04:00',
     time: '12PM EDT',
     doi: '',
     authors: [
